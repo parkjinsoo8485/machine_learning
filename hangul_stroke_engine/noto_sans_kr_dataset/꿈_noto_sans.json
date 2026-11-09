@@ -1,0 +1,63 @@
+{
+  "character": "꿈",
+  "unicode": "U+AFC8",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": {
+    "choseong": "ㄲ",
+    "jungseong": "ㅜ",
+    "jongseong": "ㅁ"
+  },
+  "noto_glyph_path": "M683 694V878H233V694ZM152 628V945H765V628H498V476H869V408H744C772 280 772 187 772 132V96H486V164H692C691 220 687 300 661 408H385C419 271 419 172 419 123V96H129V164H338C336 219 330 300 302 408H50V476H416V628Z",
+  "total_strokes": 7,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "name": "첫째 ㄱ 1획",
+      "d": "M 129 130 L 380 130 L 340 408",
+      "stroke_width": 120
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "name": "둘째 ㄱ 1획",
+      "d": "M 486 130 L 735 130 L 700 408",
+      "stroke_width": 120
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "name": "ㅜ 1획 (가로선)",
+      "d": "M 50 442 L 869 442",
+      "stroke_width": 120
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "name": "ㅜ 2획 (세로점)",
+      "d": "M 457 442 L 457 628",
+      "stroke_width": 120
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "name": "ㅁ 1획 (좌측 세로)",
+      "d": "M 192 628 L 192 945",
+      "stroke_width": 120
+    },
+    {
+      "order": 6,
+      "part": "종성",
+      "name": "ㅁ 2획 (상우 꺾음)",
+      "d": "M 192 661 L 724 661 L 724 945",
+      "stroke_width": 120
+    },
+    {
+      "order": 7,
+      "part": "종성",
+      "name": "ㅁ 3획 (하단 가로)",
+      "d": "M 192 911 L 724 911",
+      "stroke_width": 120
+    }
+  ]
+}

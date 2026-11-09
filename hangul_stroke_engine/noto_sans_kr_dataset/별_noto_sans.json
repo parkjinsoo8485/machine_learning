@@ -1,0 +1,84 @@
+{
+  "character": "별",
+  "unicode": "U+BCC4",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": {
+    "choseong": "ㅂ",
+    "jungseong": "ㅕ",
+    "jongseong": "ㄹ"
+  },
+  "noto_glyph_path": "M177 289H421V422H177ZM711 246V346H503V246ZM94 95V489H503V411H711V525H793V53H711V182H503V95H421V224H177V95ZM213 879V946H827V879H295V784H793V569H211V635H711V721H213Z",
+  "total_strokes": 10,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "name": "ㅂ 1획 (좌측 세로)",
+      "d": "M 135 95 L 135 455",
+      "stroke_width": 110
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "name": "ㅂ 2획 (우측 세로)",
+      "d": "M 462 95 L 462 455",
+      "stroke_width": 110
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "name": "ㅂ 3획 (중간 가로)",
+      "d": "M 135 256 L 462 256",
+      "stroke_width": 110
+    },
+    {
+      "order": 4,
+      "part": "초성",
+      "name": "ㅂ 4획 (하단 가로)",
+      "d": "M 135 450 L 462 450",
+      "stroke_width": 110
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "name": "ㅕ 1획 (상좌 점)",
+      "d": "M 503 214 L 711 214",
+      "stroke_width": 110
+    },
+    {
+      "order": 6,
+      "part": "중성",
+      "name": "ㅕ 2획 (하좌 점)",
+      "d": "M 503 378 L 711 378",
+      "stroke_width": 110
+    },
+    {
+      "order": 7,
+      "part": "중성",
+      "name": "ㅕ 3획 (긴 세로기둥)",
+      "d": "M 752 53 L 752 525",
+      "stroke_width": 110
+    },
+    {
+      "order": 8,
+      "part": "종성",
+      "name": "ㄹ 1획 (상단 꺾음)",
+      "d": "M 211 602 L 752 602 L 752 678",
+      "stroke_width": 115
+    },
+    {
+      "order": 9,
+      "part": "종성",
+      "name": "ㄹ 2획 (중간 가로)",
+      "d": "M 211 678 L 752 678",
+      "stroke_width": 115
+    },
+    {
+      "order": 10,
+      "part": "종성",
+      "name": "ㄹ 3획 (하단 ㄴ 꺾음)",
+      "d": "M 254 678 L 254 912 L 769 912",
+      "stroke_width": 115
+    }
+  ]
+}

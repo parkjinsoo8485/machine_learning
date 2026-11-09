@@ -1,0 +1,70 @@
+{
+  "character": "꽃",
+  "unicode": "U+AF43",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": {
+    "choseong": "ㄲ",
+    "jungseong": "ㅗ",
+    "jongseong": "ㅊ"
+  },
+  "noto_glyph_path": "M469 88V156H694C693 206 689 277 669 375L749 385C775 267 775 177 775 125V88ZM435 285V440H51V508H866V440H517V285ZM121 88V156H314C312 205 306 274 272 372L353 385C395 265 395 174 395 123V88ZM416 541V633H156V698H415C404 791 268 871 120 890L150 953C283 934 404 872 458 784C511 872 633 934 766 953L796 890C647 871 511 791 500 698H759V633H499V541Z",
+  "total_strokes": 8,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "name": "첫째 ㄱ 1획",
+      "d": "M 121 122 L 360 122 L 310 380",
+      "stroke_width": 120
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "name": "둘째 ㄱ 1획",
+      "d": "M 469 122 L 740 122 L 700 380",
+      "stroke_width": 120
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "name": "ㅗ 1획 (세로점)",
+      "d": "M 476 285 L 476 474",
+      "stroke_width": 120
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "name": "ㅗ 2획 (가운데 긴가로)",
+      "d": "M 51 474 L 866 474",
+      "stroke_width": 120
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "name": "ㅊ 1획 (상단 꼭지)",
+      "d": "M 458 541 L 458 633",
+      "stroke_width": 120
+    },
+    {
+      "order": 6,
+      "part": "종성",
+      "name": "ㅊ 2획 (상단 가로선)",
+      "d": "M 156 665 L 759 665",
+      "stroke_width": 120
+    },
+    {
+      "order": 7,
+      "part": "종성",
+      "name": "ㅊ 3획 (좌측 빗침)",
+      "d": "M 458 665 L 135 921",
+      "stroke_width": 120
+    },
+    {
+      "order": 8,
+      "part": "종성",
+      "name": "ㅊ 4획 (우측 빗침)",
+      "d": "M 458 665 L 781 921",
+      "stroke_width": 120
+    }
+  ]
+}

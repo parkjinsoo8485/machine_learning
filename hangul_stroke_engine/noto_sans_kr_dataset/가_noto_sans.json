@@ -1,0 +1,35 @@
+{
+  "character": "가",
+  "unicode": "U+AC00",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": {
+    "choseong": "ㄱ",
+    "jungseong": "ㅏ",
+    "jongseong": ""
+  },
+  "noto_glyph_path": "M662 53V957H745V489H889V420H745V53ZM97 150V219H429C410 433 285 606 55 722L101 786C394 640 512 407 512 150Z",
+  "total_strokes": 3,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "name": "ㄱ 1획 (유려한 곡선 꺾음)",
+      "d": "M 97 185 L 485 185 C 470 400 360 620 70 750",
+      "stroke_width": 130
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "name": "ㅏ 1획 (긴 세로기둥)",
+      "d": "M 703 50 L 703 957",
+      "stroke_width": 130
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "name": "ㅏ 2획 (가로가지)",
+      "d": "M 703 454 L 889 454",
+      "stroke_width": 120
+    }
+  ]
+}
