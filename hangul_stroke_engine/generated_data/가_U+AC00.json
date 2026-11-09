@@ -1,0 +1,76 @@
+{
+  "character": "가",
+  "unicode": "U+AC00",
+  "decomposition": {
+    "choseong": "ㄱ",
+    "jungseong": "ㅏ",
+    "jongseong": ""
+  },
+  "layout_type": "CV_V",
+  "total_strokes": 3,
+  "verification": {
+    "passed": true,
+    "stroke_count": 3,
+    "issues": []
+  },
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "jamo": "ㄱ",
+      "name": "ㄱ (가로-세로 꺾음)",
+      "type": "corner",
+      "median": [
+        [
+          57.4,
+          142.0
+        ],
+        [
+          197.8,
+          142.0
+        ],
+        [
+          197.8,
+          376.0
+        ]
+      ],
+      "svg_path": "M 57.4 142.0 L 197.8 142.0 L 197.8 376.0"
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "jamo": "ㅏ",
+      "name": "ㅏ 1획 (세로)",
+      "type": "line",
+      "median": [
+        [
+          367.0,
+          70.0
+        ],
+        [
+          367.0,
+          430.0
+        ]
+      ],
+      "svg_path": "M 367.0 70.0 L 367.0 430.0"
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "jamo": "ㅏ",
+      "name": "ㅏ 2획 (우측 점)",
+      "type": "line",
+      "median": [
+        [
+          367.0,
+          250.0
+        ],
+        [
+          442.6,
+          250.0
+        ]
+      ],
+      "svg_path": "M 367.0 250.0 L 442.6 250.0"
+    }
+  ]
+}
