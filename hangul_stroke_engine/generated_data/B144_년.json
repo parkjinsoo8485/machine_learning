@@ -1,0 +1,86 @@
+{
+  "character": "년",
+  "unicode": "U+B144",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄴ + ㅕ + ㄴ",
+  "archetype": "V2",
+  "noto_glyph_path": "M455 344V411H711V724H794V54H711V171H455V238H711V344ZM215 666V938H818V870H298V666ZM103 520V589H171C303 589 425 583 570 556L561 487C426 512 308 519 185 520V119H103Z",
+  "total_strokes": 5,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄴ (세로-가로 꺾음)",
+      "clip_box": {
+        "x": 80,
+        "y": 90,
+        "w": 520,
+        "h": 465
+      },
+      "d": "M 140 100 L 140 525 L 570 525",
+      "width": 105,
+      "duration": 0.65
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅕ 1획 (상단 가로)",
+      "clip_box": {
+        "x": 460,
+        "y": 179,
+        "w": 260,
+        "h": 70
+      },
+      "d": "M 470 214 L 725 214",
+      "width": 85,
+      "duration": 0.32
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅕ 2획 (하단 가로)",
+      "clip_box": {
+        "x": 460,
+        "y": 343,
+        "w": 260,
+        "h": 70
+      },
+      "d": "M 470 378 L 725 378",
+      "width": 85,
+      "duration": 0.32
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅕ 3획 (세로 기둥)",
+      "clip_box": {
+        "x": 660,
+        "y": 45,
+        "w": 100,
+        "h": 710
+      },
+      "d": "M 710 45 L 710 740",
+      "width": 100,
+      "duration": 0.55
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄴ 받침 (세로-가로 꺾음)",
+      "clip_box": {
+        "x": 180,
+        "y": 670,
+        "w": 620,
+        "h": 275
+      },
+      "d": "M 230 670 L 230 904 L 800 904",
+      "width": 105,
+      "duration": 0.65
+    }
+  ]
+}

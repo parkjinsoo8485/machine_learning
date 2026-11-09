@@ -1,0 +1,41 @@
+{
+  "character": "그",
+  "unicode": "U+ADF8",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄱ + ㅡ",
+  "archetype": "H1",
+  "noto_glyph_path": "M50 757V826H867V757ZM139 149V217H676V240C676 352 676 487 640 671L724 680C758 484 758 355 758 240V149Z",
+  "total_strokes": 2,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄱ (직각 꺾음)",
+      "clip_box": {
+        "x": 125,
+        "y": 130,
+        "w": 655,
+        "h": 535
+      },
+      "d": "M 130 178 L 740 178 C 740 340, 740 460, 695 655",
+      "width": 115,
+      "duration": 0.6
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅡ (긴 가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 570,
+        "w": 840,
+        "h": 90
+      },
+      "d": "M 40 615 L 880 615",
+      "width": 100,
+      "duration": 0.5
+    }
+  ]
+}

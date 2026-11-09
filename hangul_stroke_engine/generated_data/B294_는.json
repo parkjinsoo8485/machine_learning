@@ -1,0 +1,56 @@
+{
+  "character": "는",
+  "unicode": "U+B294",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄴ + ㅡ + ㄴ",
+  "archetype": "H2",
+  "noto_glyph_path": "M49 514V581H869V514ZM160 86V392H775V325H242V86ZM154 672V936H780V868H237V672Z",
+  "total_strokes": 3,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄴ (세로-가로 꺾음)",
+      "clip_box": {
+        "x": 150,
+        "y": 80,
+        "w": 670,
+        "h": 310
+      },
+      "d": "M 180 90 L 180 360 L 770 360",
+      "width": 105,
+      "duration": 0.65
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅡ (긴 가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 378,
+        "w": 840,
+        "h": 90
+      },
+      "d": "M 40 423 L 880 423",
+      "width": 100,
+      "duration": 0.5
+    },
+    {
+      "order": 3,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄴ 받침 (세로-가로 꺾음)",
+      "clip_box": {
+        "x": 180,
+        "y": 670,
+        "w": 620,
+        "h": 275
+      },
+      "d": "M 230 670 L 230 904 L 800 904",
+      "width": 105,
+      "duration": 0.65
+    }
+  ]
+}

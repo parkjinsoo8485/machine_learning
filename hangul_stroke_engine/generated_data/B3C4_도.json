@@ -1,0 +1,71 @@
+{
+  "character": "도",
+  "unicode": "U+B3C4",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄷ + ㅗ",
+  "archetype": "H1",
+  "noto_glyph_path": "M154 126V543H417V775H50V844H870V775H499V543H775V476H237V194H766V126Z",
+  "total_strokes": 4,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄷ 1획 (상단 가로)",
+      "clip_box": {
+        "x": 150,
+        "y": 100,
+        "w": 780,
+        "h": 90
+      },
+      "d": "M 150 120 L 770 120",
+      "width": 95,
+      "duration": 0.4
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄷ 2획 (하단 ㄴ 꺾음)",
+      "clip_box": {
+        "x": 150,
+        "y": 150,
+        "w": 780,
+        "h": 300
+      },
+      "d": "M 180 140 L 180 390 L 770 390",
+      "width": 105,
+      "duration": 0.6
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 1획 (세로점)",
+      "clip_box": {
+        "x": 355,
+        "y": 430,
+        "w": 110,
+        "h": 345
+      },
+      "d": "M 409 430 L 409 775",
+      "width": 105,
+      "duration": 0.35
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 2획 (가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 750,
+        "w": 835,
+        "h": 95
+      },
+      "d": "M 40 796 L 875 796",
+      "width": 95,
+      "duration": 0.5
+    }
+  ]
+}

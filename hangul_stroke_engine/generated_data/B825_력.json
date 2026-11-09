@@ -1,0 +1,116 @@
+{
+  "character": "력",
+  "unicode": "U+B825",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄹ + ㅕ + ㄱ",
+  "archetype": "V2",
+  "noto_glyph_path": "M189 658V726H711V959H794V658ZM86 108V175H393V300H88V569H152C333 569 424 566 535 547L527 479C423 498 336 502 170 502V364H475V108ZM535 375V443H711V610H794V54H711V188H535V255H711V375Z",
+  "total_strokes": 7,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄹ 1획 (상단 ㄱ)",
+      "clip_box": {
+        "x": 80,
+        "y": 80,
+        "w": 580,
+        "h": 161
+      },
+      "d": "M 90 100 L 570 100 L 530 241",
+      "width": 105,
+      "duration": 0.55
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄹ 2획 (중간 가로)",
+      "clip_box": {
+        "x": 80,
+        "y": 221,
+        "w": 580,
+        "h": 80
+      },
+      "d": "M 90 241 L 570 241",
+      "width": 95,
+      "duration": 0.45
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄹ 3획 (하단 ㄴ)",
+      "clip_box": {
+        "x": 80,
+        "y": 271,
+        "w": 580,
+        "h": 314
+      },
+      "d": "M 140 261 L 140 525 L 570 525",
+      "width": 110,
+      "duration": 0.65
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅕ 1획 (상단 가로)",
+      "clip_box": {
+        "x": 460,
+        "y": 179,
+        "w": 260,
+        "h": 70
+      },
+      "d": "M 470 214 L 725 214",
+      "width": 85,
+      "duration": 0.32
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅕ 2획 (하단 가로)",
+      "clip_box": {
+        "x": 460,
+        "y": 343,
+        "w": 260,
+        "h": 70
+      },
+      "d": "M 470 378 L 725 378",
+      "width": 85,
+      "duration": 0.32
+    },
+    {
+      "order": 6,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅕ 3획 (세로 기둥)",
+      "clip_box": {
+        "x": 660,
+        "y": 45,
+        "w": 100,
+        "h": 710
+      },
+      "d": "M 710 45 L 710 740",
+      "width": 100,
+      "duration": 0.55
+    },
+    {
+      "order": 7,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄱ 받침 (직각 꺾음)",
+      "clip_box": {
+        "x": 130,
+        "y": 620,
+        "w": 645,
+        "h": 350
+      },
+      "d": "M 130 687 L 725 687 L 725 965",
+      "width": 115,
+      "duration": 0.65
+    }
+  ]
+}

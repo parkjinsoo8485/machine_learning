@@ -1,0 +1,101 @@
+{
+  "character": "문",
+  "unicode": "U+BB38",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㅁ + ㅜ + ㄴ",
+  "archetype": "H2",
+  "noto_glyph_path": "M155 96V413H762V96ZM681 162V347H236V162ZM49 515V583H424V766H506V583H869V515ZM153 679V938H778V870H236V679Z",
+  "total_strokes": 6,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅁ 1획 (좌측 세로)",
+      "clip_box": {
+        "x": 150,
+        "y": 70,
+        "w": 100,
+        "h": 310
+      },
+      "d": "M 190 90 L 190 360",
+      "width": 100,
+      "duration": 0.45
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅁ 2획 (상우 꺾음)",
+      "clip_box": {
+        "x": 240,
+        "y": 70,
+        "w": 690,
+        "h": 310
+      },
+      "d": "M 190 90 L 770 90 L 770 360",
+      "width": 100,
+      "duration": 0.6
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅁ 3획 (하단 가로)",
+      "clip_box": {
+        "x": 240,
+        "y": 320,
+        "w": 630,
+        "h": 80
+      },
+      "d": "M 190 360 L 770 360",
+      "width": 95,
+      "duration": 0.4
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 1획 (가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 402,
+        "w": 840,
+        "h": 80
+      },
+      "d": "M 46 442 L 875 442",
+      "width": 90,
+      "duration": 0.5
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 2획 (세로점)",
+      "clip_box": {
+        "x": 410,
+        "y": 452,
+        "w": 100,
+        "h": 210
+      },
+      "d": "M 457 442 L 457 632",
+      "width": 95,
+      "duration": 0.3
+    },
+    {
+      "order": 6,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄴ 받침 (세로-가로 꺾음)",
+      "clip_box": {
+        "x": 180,
+        "y": 670,
+        "w": 620,
+        "h": 275
+      },
+      "d": "M 230 670 L 230 904 L 800 904",
+      "width": 105,
+      "duration": 0.65
+    }
+  ]
+}

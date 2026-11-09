@@ -1,0 +1,71 @@
+{
+  "character": "개",
+  "unicode": "U+AC1C",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄱ + ㅐ",
+  "archetype": "V1",
+  "noto_glyph_path": "M536 77V913H614V485H736V958H816V53H736V417H614V77ZM85 170V238H355C342 425 258 589 50 705L98 764C356 618 436 402 436 170Z",
+  "total_strokes": 4,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄱ (곡선 꺾음)",
+      "clip_box": {
+        "x": 50,
+        "y": 140,
+        "w": 470,
+        "h": 650
+      },
+      "d": "M 90 185 L 485 185 C 470 400 360 620 55 755",
+      "width": 105,
+      "duration": 0.65
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅐ 1획 (첫째 기둥)",
+      "clip_box": {
+        "x": 573,
+        "y": 45,
+        "w": 80,
+        "h": 930
+      },
+      "d": "M 613 45 L 613 960",
+      "width": 95,
+      "duration": 0.55
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅐ 2획 (연결 가로)",
+      "clip_box": {
+        "x": 633,
+        "y": 419,
+        "w": 150,
+        "h": 70
+      },
+      "d": "M 613 454 L 773 454",
+      "width": 85,
+      "duration": 0.3
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅐ 3획 (둘째 기둥)",
+      "clip_box": {
+        "x": 733,
+        "y": 45,
+        "w": 85,
+        "h": 930
+      },
+      "d": "M 773 45 L 773 960",
+      "width": 95,
+      "duration": 0.55
+    }
+  ]
+}
