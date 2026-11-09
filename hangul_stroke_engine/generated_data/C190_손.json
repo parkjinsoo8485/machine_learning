@@ -1,0 +1,95 @@
+{
+  "character": "손",
+  "unicode": "U+C190",
+  "decomp": "ㅅ + ㅗ + ㄴ",
+  "archetype": "H2",
+  "coverage": "99.7710% (미채움 445 px, 침범 0 px)",
+  "noto_path": "M155 679V938H776V870H238V679ZM417 386V538H50V606H869V538H499V386ZM416 77V117C416 243 263 352 103 378L136 444C273 418 402 342 458 234C514 342 644 418 780 444L813 378C653 353 500 244 500 117V77Z",
+  "total_strokes": 5,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅅ 1획 (좌측 빗침)",
+      "clip_box": {
+        "x": 35,
+        "y": 50,
+        "w": 470,
+        "h": 420
+      },
+      "d": "M 459 80 C 459 220 320 400 90 440",
+      "width": 140,
+      "duration": 0.6
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅅ 2획 (우측 빗침)",
+      "clip_box": {
+        "x": 425,
+        "y": 145,
+        "w": 390,
+        "h": 330
+      },
+      "d": "M 460 180 C 500 260 650 400 780 440",
+      "width": 140,
+      "duration": 0.55
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 1획 (세로점)",
+      "clip_box": {
+        "x": 352,
+        "y": 265,
+        "w": 150,
+        "h": 245
+      },
+      "d": "M 427 280 L 427 495",
+      "width": 135,
+      "duration": 0.3
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 2획 (가로선)",
+      "clip_box": {
+        "x": 25,
+        "y": 475,
+        "w": 865,
+        "h": 165
+      },
+      "d": "M 40 540 L 880 540",
+      "width": 145,
+      "duration": 0.5
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄴ 받침 (세로-가로 꺾음)",
+      "clip_box": {
+        "x": 115,
+        "y": 635,
+        "w": 700,
+        "h": 330
+      },
+      "d": "M 195 660 L 195 900 L 790 900",
+      "width": 150,
+      "duration": 0.65
+    }
+  ],
+  "qa": {
+    "character": "손",
+    "ref_pixels": 194305,
+    "rendered_pixels": 193900,
+    "coverage_pct": 99.771,
+    "unfilled_pixels": 445,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

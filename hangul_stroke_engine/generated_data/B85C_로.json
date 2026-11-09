@@ -1,10 +1,10 @@
 {
   "character": "로",
   "unicode": "U+B85C",
-  "font": "Noto Sans CJK KR Regular",
-  "decomposition": "ㄹ + ㅗ",
+  "decomp": "ㄹ + ㅗ",
   "archetype": "H1",
-  "noto_glyph_path": "M152 540V608H417V777H50V846H870V777H499V608H789V540H234V394H768V120H150V188H686V328H152Z",
+  "coverage": "97.9244% (미채움 4564 px, 침범 0 px)",
+  "noto_path": "M152 540V608H417V777H50V846H870V777H499V608H789V540H234V394H768V120H150V188H686V328H152Z",
   "total_strokes": 5,
   "strokes": [
     {
@@ -15,12 +15,12 @@
       "clip_box": {
         "x": 140,
         "y": 100,
-        "w": 780,
-        "h": 110
+        "w": 660,
+        "h": 240
       },
-      "d": "M 90 120 L 770 120 L 730 210",
-      "width": 105,
-      "duration": 0.55
+      "d": "M 150 155 L 727 155 L 727 350",
+      "width": 110,
+      "duration": 0.5
     },
     {
       "order": 2,
@@ -29,13 +29,13 @@
       "name": "ㄹ 2획 (중간 가로)",
       "clip_box": {
         "x": 140,
-        "y": 190,
-        "w": 780,
-        "h": 80
+        "y": 310,
+        "w": 660,
+        "h": 90
       },
-      "d": "M 90 210 L 770 210",
-      "width": 95,
-      "duration": 0.45
+      "d": "M 190 350 L 727 350",
+      "width": 105,
+      "duration": 0.4
     },
     {
       "order": 3,
@@ -44,13 +44,13 @@
       "name": "ㄹ 3획 (하단 ㄴ)",
       "clip_box": {
         "x": 140,
-        "y": 240,
-        "w": 780,
-        "h": 210
+        "y": 350,
+        "w": 660,
+        "h": 250
       },
-      "d": "M 140 230 L 140 390 L 770 390",
-      "width": 110,
-      "duration": 0.65
+      "d": "M 195 350 L 195 574 L 727 574",
+      "width": 115,
+      "duration": 0.6
     },
     {
       "order": 4,
@@ -58,12 +58,12 @@
       "color": "#f59e0b",
       "name": "ㅗ 1획 (세로점)",
       "clip_box": {
-        "x": 355,
-        "y": 430,
-        "w": 110,
-        "h": 345
+        "x": 398,
+        "y": 540,
+        "w": 120,
+        "h": 250
       },
-      "d": "M 409 430 L 409 775",
+      "d": "M 458 540 L 458 775",
       "width": 105,
       "duration": 0.35
     },
@@ -74,13 +74,22 @@
       "name": "ㅗ 2획 (가로선)",
       "clip_box": {
         "x": 40,
-        "y": 750,
-        "w": 835,
-        "h": 95
+        "y": 740,
+        "w": 840,
+        "h": 110
       },
-      "d": "M 40 796 L 875 796",
-      "width": 95,
+      "d": "M 40 796 L 880 796",
+      "width": 110,
       "duration": 0.5
     }
-  ]
+  ],
+  "qa": {
+    "character": "로",
+    "ref_pixels": 219886,
+    "rendered_pixels": 215322,
+    "coverage_pct": 97.9244,
+    "unfilled_pixels": 4564,
+    "leakage_pixels": 0,
+    "pass": true
+  }
 }

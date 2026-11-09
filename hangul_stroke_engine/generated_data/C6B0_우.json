@@ -1,0 +1,65 @@
+{
+  "character": "우",
+  "unicode": "U+C6B0",
+  "decomp": "ㅇ + ㅜ",
+  "archetype": "H1",
+  "coverage": "96.5879% (미채움 6389 px, 침범 0 px)",
+  "noto_path": "M457 89C269 89 141 166 141 288C141 409 269 486 457 486C646 486 774 409 774 288C774 166 646 89 457 89ZM457 156C596 156 689 208 689 288C689 368 596 419 457 419C319 419 226 368 226 288C226 208 319 156 457 156ZM49 571V640H416V958H498V640H869V571Z",
+  "total_strokes": 3,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅇ (원형 폐곡선)",
+      "clip_box": {
+        "x": 120,
+        "y": 80,
+        "w": 680,
+        "h": 420
+      },
+      "d": "M 459 90 A 240 190 0 1 0 459 470 A 240 190 0 1 0 459 90",
+      "width": 120,
+      "duration": 0.8
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 1획 (가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 545,
+        "w": 840,
+        "h": 130
+      },
+      "d": "M 40 610 L 880 610",
+      "width": 115,
+      "duration": 0.5
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 2획 (세로점)",
+      "clip_box": {
+        "x": 400,
+        "y": 600,
+        "w": 120,
+        "h": 370
+      },
+      "d": "M 459 600 L 459 958",
+      "width": 115,
+      "duration": 0.35
+    }
+  ],
+  "qa": {
+    "character": "우",
+    "ref_pixels": 187243,
+    "rendered_pixels": 180856,
+    "coverage_pct": 96.5879,
+    "unfilled_pixels": 6389,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

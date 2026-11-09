@@ -1,0 +1,110 @@
+{
+  "character": "푸",
+  "unicode": "U+D478",
+  "decomp": "ㅍ + ㅜ",
+  "archetype": "H1",
+  "coverage": "97.6311% (미채움 4995 px, 침범 0 px)",
+  "noto_path": "M130 418V485H787V418H654V172H791V104H127V172H263V418ZM346 172H572V418H346ZM49 589V658H417V957H499V658H869V589Z",
+  "total_strokes": 6,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅍ 1획 (상단 가로)",
+      "clip_box": {
+        "x": 100,
+        "y": 80,
+        "w": 720,
+        "h": 110
+      },
+      "d": "M 110 135 L 810 135",
+      "width": 110,
+      "duration": 0.4
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅍ 2획 (좌측 세로)",
+      "clip_box": {
+        "x": 250,
+        "y": 130,
+        "w": 140,
+        "h": 350
+      },
+      "d": "M 310 130 L 310 440",
+      "width": 110,
+      "duration": 0.35
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅍ 3획 (우측 세로)",
+      "clip_box": {
+        "x": 530,
+        "y": 130,
+        "w": 140,
+        "h": 350
+      },
+      "d": "M 590 130 L 590 440",
+      "width": 110,
+      "duration": 0.35
+    },
+    {
+      "order": 4,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅍ 4획 (하단 가로)",
+      "clip_box": {
+        "x": 100,
+        "y": 380,
+        "w": 720,
+        "h": 100
+      },
+      "d": "M 110 435 L 810 435",
+      "width": 110,
+      "duration": 0.4
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 1획 (가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 545,
+        "w": 840,
+        "h": 130
+      },
+      "d": "M 40 610 L 880 610",
+      "width": 115,
+      "duration": 0.5
+    },
+    {
+      "order": 6,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 2획 (세로점)",
+      "clip_box": {
+        "x": 400,
+        "y": 600,
+        "w": 120,
+        "h": 370
+      },
+      "d": "M 459 600 L 459 958",
+      "width": 115,
+      "duration": 0.35
+    }
+  ],
+  "qa": {
+    "character": "푸",
+    "ref_pixels": 210859,
+    "rendered_pixels": 205864,
+    "coverage_pct": 97.6311,
+    "unfilled_pixels": 4995,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

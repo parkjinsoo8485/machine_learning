@@ -1,0 +1,110 @@
+{
+  "character": "골",
+  "unicode": "U+ACE8",
+  "decomp": "ㄱ + ㅗ + ㄹ",
+  "archetype": "H2",
+  "coverage": "95.5554% (미채움 11600 px, 침범 0 px)",
+  "noto_path": "M147 90V157H681C681 212 680 273 664 355L746 363C763 275 763 206 763 148V90ZM386 257V414H51V480H866V414H468V257ZM149 881V947H789V881H231V780H766V563H147V630H684V720H149Z",
+  "total_strokes": 6,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄱ (직각 꺾음)",
+      "clip_box": {
+        "x": 120,
+        "y": 65,
+        "w": 665,
+        "h": 410
+      },
+      "d": "M 140 135 L 735 135 C 735 240 735 340 695 440",
+      "width": 125,
+      "duration": 0.6
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 1획 (세로점)",
+      "clip_box": {
+        "x": 352,
+        "y": 265,
+        "w": 150,
+        "h": 245
+      },
+      "d": "M 427 280 L 427 495",
+      "width": 115,
+      "duration": 0.3
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 2획 (가로선)",
+      "clip_box": {
+        "x": 25,
+        "y": 415,
+        "w": 865,
+        "h": 165
+      },
+      "d": "M 40 495 L 875 495",
+      "width": 125,
+      "duration": 0.5
+    },
+    {
+      "order": 4,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄹ 받침 1획 (상단 ㄱ)",
+      "clip_box": {
+        "x": 115,
+        "y": 547,
+        "w": 750,
+        "h": 220
+      },
+      "d": "M 140 610 L 755 610 L 752 740",
+      "width": 125,
+      "duration": 0.5
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄹ 받침 2획 (중간 가로)",
+      "clip_box": {
+        "x": 115,
+        "y": 692,
+        "w": 750,
+        "h": 115
+      },
+      "d": "M 140 755 L 805 755",
+      "width": 120,
+      "duration": 0.4
+    },
+    {
+      "order": 6,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄹ 받침 3획 (하단 ㄴ)",
+      "clip_box": {
+        "x": 115,
+        "y": 747,
+        "w": 750,
+        "h": 240
+      },
+      "d": "M 190 762 L 190 920 L 835 920",
+      "width": 125,
+      "duration": 0.55
+    }
+  ],
+  "qa": {
+    "character": "골",
+    "ref_pixels": 260993,
+    "rendered_pixels": 249393,
+    "coverage_pct": 95.5554,
+    "unfilled_pixels": 11600,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

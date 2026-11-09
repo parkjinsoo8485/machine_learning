@@ -1,0 +1,110 @@
+{
+  "character": "감",
+  "unicode": "U+AC10",
+  "decomp": "ㄱ + ㅏ + ㅁ",
+  "archetype": "V2",
+  "coverage": "95.8266% (미채움 9737 px, 침범 0 px)",
+  "noto_path": "M182 608V945H752V608ZM670 676V878H264V676ZM669 53V566H752V342H885V273H752V53ZM89 112V179H416C401 330 268 450 49 509L82 576C348 503 506 340 506 112Z",
+  "total_strokes": 6,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄱ (곡선 꺾음)",
+      "clip_box": {
+        "x": 25,
+        "y": 75,
+        "w": 520,
+        "h": 540
+      },
+      "d": "M 80 140 L 485 140 C 485 340 340 520 55 580",
+      "width": 150,
+      "duration": 0.6
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅏ 1획 (세로 기둥)",
+      "clip_box": {
+        "x": 675,
+        "y": 30,
+        "w": 150,
+        "h": 725
+      },
+      "d": "M 750 45 L 750 725",
+      "width": 140,
+      "duration": 0.65
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅏ 2획 (우측 가로)",
+      "clip_box": {
+        "x": 755,
+        "y": 300,
+        "w": 195,
+        "h": 125
+      },
+      "d": "M 750 360 L 895 360",
+      "width": 135,
+      "duration": 0.3
+    },
+    {
+      "order": 4,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㅁ 받침 1획 (좌측 세로)",
+      "clip_box": {
+        "x": 145,
+        "y": 565,
+        "w": 170,
+        "h": 400
+      },
+      "d": "M 200 580 L 200 910",
+      "width": 140,
+      "duration": 0.4
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㅁ 받침 2획 (상단-우측 꺾음)",
+      "clip_box": {
+        "x": 185,
+        "y": 565,
+        "w": 650,
+        "h": 400
+      },
+      "d": "M 200 630 L 760 630 L 760 910",
+      "width": 140,
+      "duration": 0.55
+    },
+    {
+      "order": 6,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㅁ 받침 3획 (하단 가로)",
+      "clip_box": {
+        "x": 185,
+        "y": 845,
+        "w": 650,
+        "h": 120
+      },
+      "d": "M 200 910 L 760 910",
+      "width": 140,
+      "duration": 0.35
+    }
+  ],
+  "qa": {
+    "character": "감",
+    "ref_pixels": 233313,
+    "rendered_pixels": 223576,
+    "coverage_pct": 95.8266,
+    "unfilled_pixels": 9737,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

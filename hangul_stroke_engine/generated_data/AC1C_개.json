@@ -1,10 +1,10 @@
 {
   "character": "개",
   "unicode": "U+AC1C",
-  "font": "Noto Sans CJK KR Regular",
-  "decomposition": "ㄱ + ㅐ",
+  "decomp": "ㄱ + ㅐ",
   "archetype": "V1",
-  "noto_glyph_path": "M536 77V913H614V485H736V958H816V53H736V417H614V77ZM85 170V238H355C342 425 258 589 50 705L98 764C356 618 436 402 436 170Z",
+  "coverage": "99.6792% (미채움 697 px, 침범 0 px)",
+  "noto_path": "M536 77V913H614V485H736V958H816V53H736V417H614V77ZM85 170V238H355C342 425 258 589 50 705L98 764C356 618 436 402 436 170Z",
   "total_strokes": 4,
   "strokes": [
     {
@@ -13,13 +13,13 @@
       "color": "#3b82f6",
       "name": "ㄱ (곡선 꺾음)",
       "clip_box": {
-        "x": 50,
+        "x": 40,
         "y": 140,
-        "w": 470,
+        "w": 420,
         "h": 650
       },
-      "d": "M 90 185 L 485 185 C 470 400 360 620 55 755",
-      "width": 105,
+      "d": "M 80 185 L 430 185 C 410 380 320 620 55 755",
+      "width": 110,
       "duration": 0.65
     },
     {
@@ -28,13 +28,13 @@
       "color": "#f59e0b",
       "name": "ㅐ 1획 (첫째 기둥)",
       "clip_box": {
-        "x": 573,
+        "x": 520,
         "y": 45,
-        "w": 80,
+        "w": 120,
         "h": 930
       },
-      "d": "M 613 45 L 613 960",
-      "width": 95,
+      "d": "M 585 45 L 585 960",
+      "width": 105,
       "duration": 0.55
     },
     {
@@ -43,13 +43,13 @@
       "color": "#f59e0b",
       "name": "ㅐ 2획 (연결 가로)",
       "clip_box": {
-        "x": 633,
-        "y": 419,
-        "w": 150,
-        "h": 70
+        "x": 565,
+        "y": 409,
+        "w": 190,
+        "h": 90
       },
-      "d": "M 613 454 L 773 454",
-      "width": 85,
+      "d": "M 585 454 L 775 454",
+      "width": 100,
       "duration": 0.3
     },
     {
@@ -58,14 +58,23 @@
       "color": "#f59e0b",
       "name": "ㅐ 3획 (둘째 기둥)",
       "clip_box": {
-        "x": 733,
+        "x": 720,
         "y": 45,
-        "w": 85,
+        "w": 120,
         "h": 930
       },
-      "d": "M 773 45 L 773 960",
-      "width": 95,
+      "d": "M 775 45 L 775 960",
+      "width": 105,
       "duration": 0.55
     }
-  ]
+  ],
+  "qa": {
+    "character": "개",
+    "ref_pixels": 217285,
+    "rendered_pixels": 216588,
+    "coverage_pct": 99.6792,
+    "unfilled_pixels": 697,
+    "leakage_pixels": 0,
+    "pass": true
+  }
 }

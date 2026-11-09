@@ -1,0 +1,110 @@
+{
+  "character": "부",
+  "unicode": "U+BD80",
+  "decomp": "ㅂ + ㅜ",
+  "archetype": "H1",
+  "coverage": "99.2902% (미채움 1452 px, 침범 0 px)",
+  "noto_path": "M153 90V481H765V90H682V214H235V90ZM235 281H682V413H235ZM49 589V656H416V958H498V656H869V589Z",
+  "total_strokes": 6,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 1획 (좌측 기둥)",
+      "clip_box": {
+        "x": 130,
+        "y": 80,
+        "w": 140,
+        "h": 380
+      },
+      "d": "M 188 80 L 188 440",
+      "width": 110,
+      "duration": 0.5
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 2획 (우측 기둥)",
+      "clip_box": {
+        "x": 670,
+        "y": 80,
+        "w": 140,
+        "h": 380
+      },
+      "d": "M 730 80 L 730 440",
+      "width": 110,
+      "duration": 0.5
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 3획 (중간 가로)",
+      "clip_box": {
+        "x": 180,
+        "y": 200,
+        "w": 570,
+        "h": 100
+      },
+      "d": "M 180 240 L 740 240",
+      "width": 105,
+      "duration": 0.35
+    },
+    {
+      "order": 4,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 4획 (하단 가로)",
+      "clip_box": {
+        "x": 180,
+        "y": 380,
+        "w": 570,
+        "h": 100
+      },
+      "d": "M 180 430 L 740 430",
+      "width": 105,
+      "duration": 0.35
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 1획 (가로선)",
+      "clip_box": {
+        "x": 40,
+        "y": 545,
+        "w": 840,
+        "h": 130
+      },
+      "d": "M 40 610 L 880 610",
+      "width": 115,
+      "duration": 0.5
+    },
+    {
+      "order": 6,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 2획 (세로점)",
+      "clip_box": {
+        "x": 400,
+        "y": 600,
+        "w": 120,
+        "h": 370
+      },
+      "d": "M 459 600 L 459 958",
+      "width": 115,
+      "duration": 0.35
+    }
+  ],
+  "qa": {
+    "character": "부",
+    "ref_pixels": 204564,
+    "rendered_pixels": 203112,
+    "coverage_pct": 99.2902,
+    "unfilled_pixels": 1452,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "character": "바",
+  "unicode": "U+BC14",
+  "decomp": "ㅂ + ㅏ",
+  "archetype": "V1",
+  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
+  "noto_path": "M86 130V741H507V130H425V368H168V130ZM168 434H425V672H168ZM662 53V958H745V480H893V409H745V53Z",
+  "total_strokes": 6,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 1획 (좌측 기둥)",
+      "clip_box": {
+        "x": 80,
+        "y": 120,
+        "w": 160,
+        "h": 630
+      },
+      "d": "M 127 125 L 127 710",
+      "width": 115,
+      "duration": 0.5
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 2획 (우측 기둥)",
+      "clip_box": {
+        "x": 400,
+        "y": 120,
+        "w": 160,
+        "h": 630
+      },
+      "d": "M 466 125 L 466 710",
+      "width": 115,
+      "duration": 0.5
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 3획 (중간 가로)",
+      "clip_box": {
+        "x": 80,
+        "y": 330,
+        "w": 480,
+        "h": 130
+      },
+      "d": "M 120 395 L 475 395",
+      "width": 110,
+      "duration": 0.35
+    },
+    {
+      "order": 4,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 4획 (하단 가로)",
+      "clip_box": {
+        "x": 80,
+        "y": 640,
+        "w": 480,
+        "h": 120
+      },
+      "d": "M 120 706 L 475 706",
+      "width": 115,
+      "duration": 0.35
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅏ 1획 (세로 기둥)",
+      "clip_box": {
+        "x": 643,
+        "y": 45,
+        "w": 120,
+        "h": 930
+      },
+      "d": "M 703 45 L 703 960",
+      "width": 110,
+      "duration": 0.65
+    },
+    {
+      "order": 6,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅏ 2획 (우측 가로)",
+      "clip_box": {
+        "x": 723,
+        "y": 409,
+        "w": 212,
+        "h": 95
+      },
+      "d": "M 703 454 L 895 454",
+      "width": 105,
+      "duration": 0.3
+    }
+  ],
+  "qa": {
+    "character": "바",
+    "ref_pixels": 220522,
+    "rendered_pixels": 220522,
+    "coverage_pct": 100.0,
+    "unfilled_pixels": 0,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

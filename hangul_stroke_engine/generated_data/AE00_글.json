@@ -1,0 +1,95 @@
+{
+  "character": "글",
+  "unicode": "U+AE00",
+  "decomp": "ㄱ + ㅡ + ㄹ",
+  "archetype": "H2",
+  "coverage": "96.1700% (미채움 9736 px, 침범 0 px)",
+  "noto_path": "M50 390V457H870V390H744C764 289 764 211 764 150V92H154V159H682C682 218 681 292 660 390ZM149 881V947H789V881H231V776H766V547H147V613H684V712H149Z",
+  "total_strokes": 5,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄱ (직각 꺾음)",
+      "clip_box": {
+        "x": 120,
+        "y": 65,
+        "w": 665,
+        "h": 410
+      },
+      "d": "M 140 135 L 735 135 C 735 240 735 340 695 440",
+      "width": 125,
+      "duration": 0.6
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅡ (긴 가로선)",
+      "clip_box": {
+        "x": 25,
+        "y": 385,
+        "w": 870,
+        "h": 160
+      },
+      "d": "M 40 465 L 880 465",
+      "width": 125,
+      "duration": 0.5
+    },
+    {
+      "order": 3,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄹ 받침 1획 (상단 ㄱ)",
+      "clip_box": {
+        "x": 115,
+        "y": 547,
+        "w": 750,
+        "h": 220
+      },
+      "d": "M 140 610 L 755 610 L 752 740",
+      "width": 125,
+      "duration": 0.5
+    },
+    {
+      "order": 4,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄹ 받침 2획 (중간 가로)",
+      "clip_box": {
+        "x": 115,
+        "y": 692,
+        "w": 750,
+        "h": 115
+      },
+      "d": "M 140 755 L 805 755",
+      "width": 120,
+      "duration": 0.4
+    },
+    {
+      "order": 5,
+      "part": "종성",
+      "color": "#a855f7",
+      "name": "ㄹ 받침 3획 (하단 ㄴ)",
+      "clip_box": {
+        "x": 115,
+        "y": 747,
+        "w": 750,
+        "h": 240
+      },
+      "d": "M 190 762 L 190 920 L 835 920",
+      "width": 125,
+      "duration": 0.55
+    }
+  ],
+  "qa": {
+    "character": "글",
+    "ref_pixels": 254206,
+    "rendered_pixels": 244470,
+    "coverage_pct": 96.17,
+    "unfilled_pixels": 9736,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

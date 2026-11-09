@@ -1,10 +1,10 @@
 {
   "character": "기",
   "unicode": "U+AE30",
-  "font": "Noto Sans CJK KR Regular",
-  "decomposition": "ㄱ + ㅣ",
+  "decomp": "ㄱ + ㅣ",
   "archetype": "V1",
-  "noto_glyph_path": "M709 53V958H792V53ZM103 151V218H442C425 434 303 606 61 722L105 789C408 642 526 412 526 151Z",
+  "coverage": "99.7503% (미채움 399 px, 침범 0 px)",
+  "noto_path": "M709 53V958H792V53ZM103 151V218H442C425 434 303 606 61 722L105 789C408 642 526 412 526 151Z",
   "total_strokes": 2,
   "strokes": [
     {
@@ -28,14 +28,23 @@
       "color": "#f59e0b",
       "name": "ㅣ (세로 기둥)",
       "clip_box": {
-        "x": 653,
+        "x": 683.5,
         "y": 45,
-        "w": 100,
+        "w": 130,
         "h": 930
       },
-      "d": "M 703 45 L 703 960",
-      "width": 105,
+      "d": "M 748.5 45 L 748.5 960",
+      "width": 115,
       "duration": 0.65
     }
-  ]
+  ],
+  "qa": {
+    "character": "기",
+    "ref_pixels": 159811,
+    "rendered_pixels": 159412,
+    "coverage_pct": 99.7503,
+    "unfilled_pixels": 399,
+    "leakage_pixels": 0,
+    "pass": true
+  }
 }

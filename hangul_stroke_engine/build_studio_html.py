@@ -53,29 +53,34 @@ html_content = f'''<!DOCTYPE html>
     </header>
 
     <!-- Character Selector Bar -->
-    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-4 shadow-sm flex flex-col md:flex-row items-center justify-between gap-4">
-      <div class="flex flex-wrap items-center gap-1.5 text-xs w-full md:w-auto">
-        <span class="text-xs font-bold text-[var(--foreground)] mr-1">검증 글자 선택:</span>
-        <button onclick="loadChar('글')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all bg-indigo-600 text-white shadow-sm" data-char="글">글 (100%)</button>
-        <button onclick="loadChar('꽃')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="꽃">꽃 (99.99%)</button>
-        <button onclick="loadChar('별')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="별">별 (100%)</button>
-        <button onclick="loadChar('한')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="한">한 (99.99%)</button>
-        <button onclick="loadChar('가')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="가">가 (100%)</button>
-        <button onclick="loadChar('각')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="각">각 (100%)</button>
-        <button onclick="loadChar('달')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="달">달 (99%)</button>
-        <button onclick="loadChar('고')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="고">고 (100%)</button>
-        <button onclick="loadChar('곡')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="곡">곡 (100%)</button>
-        <button onclick="loadChar('과')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="과">과 (99.99%)</button>
-        <button onclick="loadChar('광')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="광">광 (99.99%)</button>
-        <button onclick="loadChar('꿈')" class="char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)]" data-char="꿈">꿈 (99%)</button>
+    <div class="bg-[var(--card)] border border-[var(--border)] rounded-2xl p-4 shadow-sm space-y-3">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-3">
+        <div class="flex items-center gap-2 w-full md:w-auto">
+          <span class="text-xs font-bold text-[var(--foreground)] whitespace-nowrap">글자 검색:</span>
+          <input id="charSearchInput" type="text" placeholder="검색 (예: 꽃, 별, 물, 닭...)" 
+                 class="w-32 px-2.5 py-1 text-xs rounded-xl border border-[var(--border)] bg-[var(--background)] focus:outline-none focus:ring-1 focus:ring-indigo-500 font-bold"
+                 oninput="filterSyllables(this.value)" />
+          <div class="flex items-center gap-1 text-[11px] overflow-x-auto py-0.5">
+            <button onclick="setFilterCategory('all')" id="tab-all" class="cat-tab px-2.5 py-1 rounded-lg font-bold bg-indigo-600 text-white">전체 (89)</button>
+            <button onclick="setFilterCategory('high')" id="tab-high" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">대표 글자</button>
+            <button onclick="setFilterCategory('H')" id="tab-H" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">수평 H1/H2</button>
+            <button onclick="setFilterCategory('V')" id="tab-V" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">수직 V1/V2</button>
+            <button onclick="setFilterCategory('C')" id="tab-C" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">복합 C1/C2</button>
+          </div>
+        </div>
+
+        <!-- Speed Selector -->
+        <div class="flex items-center gap-1 bg-[var(--background)] p-1 rounded-xl border border-[var(--border)] text-xs ml-auto">
+          <span class="text-[11px] font-semibold px-1.5 text-[var(--muted-foreground)]">운필 속도:</span>
+          <button onclick="setSpeed(0.6)" id="speed-0.6" class="px-2.5 py-1 rounded-lg font-mono font-medium hover:bg-[var(--border)]">0.6x</button>
+          <button onclick="setSpeed(1.0)" id="speed-1.0" class="px-2.5 py-1 rounded-lg font-mono font-bold bg-indigo-600 text-white">1.0x</button>
+          <button onclick="setSpeed(1.5)" id="speed-1.5" class="px-2.5 py-1 rounded-lg font-mono font-medium hover:bg-[var(--border)]">1.5x</button>
+        </div>
       </div>
 
-      <!-- Speed Selector -->
-      <div class="flex items-center gap-1 bg-[var(--background)] p-1 rounded-xl border border-[var(--border)] text-xs">
-        <span class="text-[11px] font-semibold px-1.5 text-[var(--muted-foreground)]">운필 속도:</span>
-        <button onclick="setSpeed(0.6)" id="speed-0.6" class="px-2.5 py-1 rounded-lg font-mono font-medium hover:bg-[var(--border)]">0.6x (완속)</button>
-        <button onclick="setSpeed(1.0)" id="speed-1.0" class="px-2.5 py-1 rounded-lg font-mono font-bold bg-indigo-600 text-white">1.0x (표준)</button>
-        <button onclick="setSpeed(1.5)" id="speed-1.5" class="px-2.5 py-1 rounded-lg font-mono font-medium hover:bg-[var(--border)]">1.5x (배속)</button>
+      <!-- Scrollable Syllables Grid -->
+      <div id="syllablesScrollGrid" class="flex flex-wrap items-center gap-1.5 max-h-24 overflow-y-auto pt-1 border-t border-[var(--border)] text-xs">
+        <!-- Rendered dynamically -->
       </div>
     </div>
 
@@ -283,20 +288,61 @@ html_content = f'''<!DOCTYPE html>
       }});
     }}
 
+    let currentFilterCategory = 'all';
+    let currentSearchQuery = '';
+
+    function renderSyllablesGrid() {{
+      const grid = document.getElementById('syllablesScrollGrid');
+      if (!grid) return;
+      grid.innerHTML = '';
+      const chars = Object.keys(NOTO_DATA);
+      const highFrequency = ['글', '꽃', '별', '한', '가', '달', '고', '곡', '과', '광', '꿈', '물', '불', '눈', '봄', '빛', '솔', '산', '닭', '밥', '람', '남', '밤'];
+
+      chars.forEach(c => {{
+        const d = NOTO_DATA[c];
+        const arch = d.archetype;
+        
+        if (currentFilterCategory === 'high' && !highFrequency.includes(c)) return;
+        if (currentFilterCategory === 'H' && !arch.startsWith('H')) return;
+        if (currentFilterCategory === 'V' && !arch.startsWith('V')) return;
+        if (currentFilterCategory === 'C' && !arch.startsWith('C')) return;
+
+        if (currentSearchQuery && !c.includes(currentSearchQuery)) return;
+
+        const btn = document.createElement('button');
+        btn.dataset.char = c;
+        btn.onclick = () => loadChar(c);
+        const isCurrent = (c === currentChar);
+        btn.className = isCurrent 
+          ? 'char-btn px-2.5 py-1 font-bold rounded-lg transition-all bg-indigo-600 text-white shadow-sm'
+          : 'char-btn px-2.5 py-1 font-bold rounded-lg transition-all hover:bg-[var(--border)] text-[var(--foreground)] border border-[var(--border)]';
+        btn.textContent = `${{c}}`;
+        grid.appendChild(btn);
+      }});
+    }}
+
+    function setFilterCategory(cat) {{
+      currentFilterCategory = cat;
+      document.querySelectorAll('.cat-tab').forEach(t => {{
+        t.className = 'cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]';
+      }});
+      const activeTab = document.getElementById(`tab-${{cat}}`);
+      if (activeTab) activeTab.className = 'cat-tab px-2.5 py-1 rounded-lg font-bold bg-indigo-600 text-white';
+      renderSyllablesGrid();
+    }}
+
+    function filterSyllables(q) {{
+      currentSearchQuery = q.trim();
+      renderSyllablesGrid();
+    }}
+
     function loadChar(char) {{
       pauseAnimation();
       currentChar = char;
       currentData = NOTO_DATA[char];
       if (!currentData) return;
 
-      // Update selector buttons styling
-      document.querySelectorAll('.char-btn').forEach(btn => {{
-        if (btn.dataset.char === char) {{
-          btn.className = 'char-btn px-3 py-1.5 font-bold rounded-xl transition-all bg-indigo-600 text-white shadow-sm';
-        }} else {{
-          btn.className = 'char-btn px-3 py-1.5 font-bold rounded-xl transition-all hover:bg-[var(--border)] text-[var(--foreground)]';
-        }}
-      }});
+      renderSyllablesGrid();
 
       document.getElementById('charBadge').textContent = char;
       document.getElementById('archBadge').textContent = `${{currentData.archetype}} 구조`;
@@ -612,6 +658,7 @@ html_content = f'''<!DOCTYPE html>
 
     // Initial load
     window.onload = () => {{
+      renderSyllablesGrid();
       loadChar('글');
     }};
   </script>
@@ -629,4 +676,12 @@ out2 = '/home/antigravity/.gemini/jetski/brain/v1/default/jetski_remote_agents_3
 with open(out2, 'w', encoding='utf-8') as f:
     f.write(html_content)
 
-print(f"Generated clean studio HTML at {out1} and {out2}!")
+# 3. Write into repository directory
+repo_out1 = 'hangul_stroke_engine/hangul_stroke_player.html'
+with open(repo_out1, 'w', encoding='utf-8') as f:
+    f.write(html_content)
+repo_out2 = 'hangul_stroke_engine/hangul_stroke_studio.html'
+with open(repo_out2, 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print(f"Generated clean studio HTML at {out1}, {out2}, and repo!")

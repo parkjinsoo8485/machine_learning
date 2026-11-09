@@ -1,10 +1,10 @@
 {
   "character": "가",
   "unicode": "U+AC00",
-  "font": "Noto Sans CJK KR Regular",
-  "decomposition": "ㄱ + ㅏ",
+  "decomp": "ㄱ + ㅏ",
   "archetype": "V1",
-  "noto_glyph_path": "M662 53V957H745V489H889V420H745V53ZM97 150V219H429C410 433 285 606 55 722L101 786C394 640 512 407 512 150Z",
+  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
+  "noto_path": "M662 53V957H745V489H889V420H745V53ZM97 150V219H429C410 433 285 606 55 722L101 786C394 640 512 407 512 150Z",
   "total_strokes": 3,
   "strokes": [
     {
@@ -28,13 +28,13 @@
       "color": "#f59e0b",
       "name": "ㅏ 1획 (세로 기둥)",
       "clip_box": {
-        "x": 653,
+        "x": 618,
         "y": 45,
-        "w": 100,
+        "w": 170,
         "h": 930
       },
       "d": "M 703 45 L 703 960",
-      "width": 105,
+      "width": 110,
       "duration": 0.65
     },
     {
@@ -43,14 +43,23 @@
       "color": "#f59e0b",
       "name": "ㅏ 2획 (우측 가로)",
       "clip_box": {
-        "x": 738,
-        "y": 409,
-        "w": 197,
-        "h": 90
+        "x": 713,
+        "y": 399,
+        "w": 222,
+        "h": 110
       },
-      "d": "M 703 454 L 890 454",
-      "width": 95,
+      "d": "M 703 454 L 895 454",
+      "width": 105,
       "duration": 0.3
     }
-  ]
+  ],
+  "qa": {
+    "character": "가",
+    "ref_pixels": 168983,
+    "rendered_pixels": 168983,
+    "coverage_pct": 100.0,
+    "unfilled_pixels": 0,
+    "leakage_pixels": 0,
+    "pass": true
+  }
 }

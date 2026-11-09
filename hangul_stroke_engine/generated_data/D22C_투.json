@@ -1,0 +1,95 @@
+{
+  "character": "투",
+  "unicode": "U+D22C",
+  "decomp": "ㅌ + ㅜ",
+  "archetype": "H1",
+  "coverage": "96.3162% (미채움 8046 px, 침범 0 px)",
+  "noto_path": "M49 600V669H417V958H499V669H869V600ZM159 95V508H777V441H240V332H746V266H240V162H767V95Z",
+  "total_strokes": 5,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅌ 1획 (상단 가로)",
+      "clip_box": {
+        "x": 115,
+        "y": 55,
+        "w": 710,
+        "h": 160
+      },
+      "d": "M 150 130 L 780 130",
+      "width": 120,
+      "duration": 0.4
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅌ 2획 (중간 가로)",
+      "clip_box": {
+        "x": 115,
+        "y": 205,
+        "w": 710,
+        "h": 150
+      },
+      "d": "M 150 280 L 780 280",
+      "width": 115,
+      "duration": 0.35
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅌ 3획 (하단 ㄴ)",
+      "clip_box": {
+        "x": 115,
+        "y": 95,
+        "w": 710,
+        "h": 400
+      },
+      "d": "M 195 120 L 195 440 L 780 440",
+      "width": 125,
+      "duration": 0.55
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 1획 (가로선)",
+      "clip_box": {
+        "x": 15,
+        "y": 520,
+        "w": 890,
+        "h": 180
+      },
+      "d": "M 40 610 L 880 610",
+      "width": 125,
+      "duration": 0.5
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅜ 2획 (세로점)",
+      "clip_box": {
+        "x": 375,
+        "y": 575,
+        "w": 170,
+        "h": 420
+      },
+      "d": "M 459 600 L 459 958",
+      "width": 125,
+      "duration": 0.35
+    }
+  ],
+  "qa": {
+    "character": "투",
+    "ref_pixels": 218415,
+    "rendered_pixels": 210369,
+    "coverage_pct": 96.3162,
+    "unfilled_pixels": 8046,
+    "leakage_pixels": 0,
+    "pass": true
+  }
+}

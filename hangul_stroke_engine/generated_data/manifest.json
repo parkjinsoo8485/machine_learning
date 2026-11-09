@@ -1,355 +1,819 @@
 {
-  "total": 50,
+  "timestamp": "2026-11-09T13:37:58Z",
+  "total_syllables": 90,
+  "passed_count": 90,
+  "avg_coverage": 97.3452,
+  "elapsed_sec": 13.14,
   "syllables": [
     {
-      "syllable": "이",
-      "unicode": "U+C774",
-      "archetype": "V1",
-      "strokes": 2,
-      "file": "C774_이.json"
+      "character": "이",
+      "ref_pixels": 191796,
+      "rendered_pixels": 191796,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "다",
-      "unicode": "U+B2E4",
-      "archetype": "V1",
-      "strokes": 4,
-      "file": "B2E4_다.json"
+      "character": "다",
+      "ref_pixels": 186124,
+      "rendered_pixels": 186029,
+      "coverage_pct": 99.949,
+      "unfilled_pixels": 95,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "는",
-      "unicode": "U+B294",
-      "archetype": "H2",
-      "strokes": 3,
-      "file": "B294_는.json"
+      "character": "는",
+      "ref_pixels": 174579,
+      "rendered_pixels": 174579,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "에",
-      "unicode": "U+C5D0",
-      "archetype": "V1",
-      "strokes": 4,
-      "file": "C5D0_에.json"
+      "character": "에",
+      "ref_pixels": 253953,
+      "rendered_pixels": 251013,
+      "coverage_pct": 98.8423,
+      "unfilled_pixels": 2940,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "가",
-      "unicode": "U+AC00",
-      "archetype": "V1",
-      "strokes": 3,
-      "file": "AC00_가.json"
+      "character": "가",
+      "ref_pixels": 168983,
+      "rendered_pixels": 168983,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "하",
-      "unicode": "U+D558",
-      "archetype": "V1",
-      "strokes": 5,
-      "file": "D558_하.json"
+      "character": "하",
+      "ref_pixels": 215553,
+      "rendered_pixels": 208059,
+      "coverage_pct": 96.5234,
+      "unfilled_pixels": 7494,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "은",
-      "unicode": "U+C740",
-      "archetype": "H2",
-      "strokes": 3,
-      "file": "C740_은.json"
+      "character": "은",
+      "ref_pixels": 214168,
+      "rendered_pixels": 213741,
+      "coverage_pct": 99.7997,
+      "unfilled_pixels": 429,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "을",
-      "unicode": "U+C744",
-      "archetype": "H2",
-      "strokes": 5,
-      "file": "C744_을.json"
+      "character": "을",
+      "ref_pixels": 277743,
+      "rendered_pixels": 277169,
+      "coverage_pct": 99.7933,
+      "unfilled_pixels": 574,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "를",
-      "unicode": "U+B97C",
-      "archetype": "H2",
-      "strokes": 7,
-      "file": "B97C_를.json"
+      "character": "를",
+      "ref_pixels": 296881,
+      "rendered_pixels": 284353,
+      "coverage_pct": 95.7801,
+      "unfilled_pixels": 12528,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "의",
-      "unicode": "U+C758",
-      "archetype": "C1",
-      "strokes": 3,
-      "file": "C758_의.json"
+      "character": "의",
+      "ref_pixels": 207777,
+      "rendered_pixels": 205208,
+      "coverage_pct": 98.7636,
+      "unfilled_pixels": 2569,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "고",
-      "unicode": "U+ACE0",
-      "archetype": "H1",
-      "strokes": 3,
-      "file": "ACE0_고.json"
+      "character": "고",
+      "ref_pixels": 162302,
+      "rendered_pixels": 162301,
+      "coverage_pct": 99.9994,
+      "unfilled_pixels": 1,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "로",
-      "unicode": "U+B85C",
-      "archetype": "H1",
-      "strokes": 5,
-      "file": "B85C_로.json"
+      "character": "로",
+      "ref_pixels": 219886,
+      "rendered_pixels": 215322,
+      "coverage_pct": 97.9244,
+      "unfilled_pixels": 4564,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "지",
-      "unicode": "U+C9C0",
-      "archetype": "V1",
-      "strokes": 4,
-      "file": "C9C0_지.json"
+      "character": "지",
+      "ref_pixels": 189703,
+      "rendered_pixels": 183144,
+      "coverage_pct": 96.533,
+      "unfilled_pixels": 6577,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "있",
-      "unicode": "U+C788",
-      "archetype": "V2",
-      "strokes": 6,
-      "file": "C788_있.json"
+      "character": "있",
+      "ref_pixels": 223407,
+      "rendered_pixels": 213720,
+      "coverage_pct": 95.6452,
+      "unfilled_pixels": 9729,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "한",
-      "unicode": "U+D55C",
-      "archetype": "V2",
-      "strokes": 6,
-      "file": "D55C_한.json"
+      "character": "한",
+      "ref_pixels": 238850,
+      "rendered_pixels": 227122,
+      "coverage_pct": 95.0844,
+      "unfilled_pixels": 11741,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "수",
-      "unicode": "U+C218",
-      "archetype": "H1",
-      "strokes": 4,
-      "file": "C218_수.json"
+      "character": "수",
+      "ref_pixels": 155331,
+      "rendered_pixels": 150749,
+      "coverage_pct": 97.0457,
+      "unfilled_pixels": 4589,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "기",
-      "unicode": "U+AE30",
-      "archetype": "V1",
-      "strokes": 2,
-      "file": "AE30_기.json"
+      "character": "기",
+      "ref_pixels": 159811,
+      "rendered_pixels": 159412,
+      "coverage_pct": 99.7503,
+      "unfilled_pixels": 399,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "과",
-      "unicode": "U+ACFC",
-      "archetype": "C1",
-      "strokes": 5,
-      "file": "ACFC_과.json"
+      "character": "과",
+      "ref_pixels": 204720,
+      "rendered_pixels": 195129,
+      "coverage_pct": 95.3082,
+      "unfilled_pixels": 9605,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "서",
-      "unicode": "U+C11C",
-      "archetype": "V1",
-      "strokes": 4,
-      "file": "C11C_서.json"
+      "character": "서",
+      "ref_pixels": 174906,
+      "rendered_pixels": 166656,
+      "coverage_pct": 95.2763,
+      "unfilled_pixels": 8262,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "들",
-      "unicode": "U+B4E4",
-      "archetype": "H2",
-      "strokes": 6,
-      "file": "B4E4_들.json"
+      "character": "들",
+      "ref_pixels": 281811,
+      "rendered_pixels": 267741,
+      "coverage_pct": 95.0073,
+      "unfilled_pixels": 14070,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "되",
-      "unicode": "U+B418",
-      "archetype": "C1",
-      "strokes": 5,
-      "file": "B418_되.json"
+      "character": "되",
+      "ref_pixels": 211343,
+      "rendered_pixels": 208800,
+      "coverage_pct": 98.7915,
+      "unfilled_pixels": 2554,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "주",
-      "unicode": "U+C8FC",
-      "archetype": "H1",
-      "strokes": 5,
-      "file": "C8FC_주.json"
+      "character": "주",
+      "ref_pixels": 190473,
+      "rendered_pixels": 183361,
+      "coverage_pct": 96.2661,
+      "unfilled_pixels": 7112,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "어",
-      "unicode": "U+C5B4",
-      "archetype": "V1",
-      "strokes": 3,
-      "file": "C5B4_어.json"
+      "character": "어",
+      "ref_pixels": 202187,
+      "rendered_pixels": 200189,
+      "coverage_pct": 99.0083,
+      "unfilled_pixels": 2005,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "도",
-      "unicode": "U+B3C4",
-      "archetype": "H1",
-      "strokes": 4,
-      "file": "B3C4_도.json"
+      "character": "도",
+      "ref_pixels": 182233,
+      "rendered_pixels": 182233,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "보",
-      "unicode": "U+BCF4",
-      "archetype": "H1",
-      "strokes": 6,
-      "file": "BCF4_보.json"
+      "character": "보",
+      "ref_pixels": 211443,
+      "rendered_pixels": 210893,
+      "coverage_pct": 99.7399,
+      "unfilled_pixels": 550,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "시",
-      "unicode": "U+C2DC",
-      "archetype": "V1",
-      "strokes": 3,
-      "file": "C2DC_시.json"
+      "character": "시",
+      "ref_pixels": 163083,
+      "rendered_pixels": 156422,
+      "coverage_pct": 95.9058,
+      "unfilled_pixels": 6677,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "그",
-      "unicode": "U+ADF8",
-      "archetype": "H1",
-      "strokes": 2,
-      "file": "ADF8_그.json"
+      "character": "그",
+      "ref_pixels": 136451,
+      "rendered_pixels": 136451,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "대",
-      "unicode": "U+B300",
-      "archetype": "V1",
-      "strokes": 5,
-      "file": "B300_대.json"
+      "character": "대",
+      "ref_pixels": 230968,
+      "rendered_pixels": 229966,
+      "coverage_pct": 99.5662,
+      "unfilled_pixels": 1002,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "상",
-      "unicode": "U+C0C1",
-      "archetype": "V2",
-      "strokes": 5,
-      "file": "C0C1_상.json"
+      "character": "상",
+      "ref_pixels": 211417,
+      "rendered_pixels": 201650,
+      "coverage_pct": 95.3542,
+      "unfilled_pixels": 9822,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "문",
-      "unicode": "U+BB38",
-      "archetype": "H2",
-      "strokes": 6,
-      "file": "BB38_문.json"
+      "character": "문",
+      "ref_pixels": 239213,
+      "rendered_pixels": 230956,
+      "coverage_pct": 96.5483,
+      "unfilled_pixels": 8257,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "정",
-      "unicode": "U+C815",
-      "archetype": "V2",
-      "strokes": 6,
-      "file": "C815_정.json"
+      "character": "정",
+      "ref_pixels": 242114,
+      "rendered_pixels": 236282,
+      "coverage_pct": 97.5536,
+      "unfilled_pixels": 5923,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "해",
-      "unicode": "U+D574",
-      "archetype": "V1",
-      "strokes": 6,
-      "file": "D574_해.json"
+      "character": "해",
+      "ref_pixels": 261787,
+      "rendered_pixels": 249393,
+      "coverage_pct": 95.2649,
+      "unfilled_pixels": 12396,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "것",
-      "unicode": "U+AC83",
-      "archetype": "V2",
-      "strokes": 5,
-      "file": "AC83_것.json"
+      "character": "것",
+      "ref_pixels": 202264,
+      "rendered_pixels": 195788,
+      "coverage_pct": 96.7819,
+      "unfilled_pixels": 6509,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "사",
-      "unicode": "U+C0AC",
-      "archetype": "V1",
-      "strokes": 4,
-      "file": "C0AC_사.json"
+      "character": "사",
+      "ref_pixels": 170957,
+      "rendered_pixels": 163543,
+      "coverage_pct": 95.6621,
+      "unfilled_pixels": 7416,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "전",
-      "unicode": "U+C804",
-      "archetype": "V2",
-      "strokes": 6,
-      "file": "C804_전.json"
+      "character": "전",
+      "ref_pixels": 220326,
+      "rendered_pixels": 210586,
+      "coverage_pct": 95.5747,
+      "unfilled_pixels": 9750,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "생",
-      "unicode": "U+C0DD",
-      "archetype": "V2",
-      "strokes": 6,
-      "file": "C0DD_생.json"
+      "character": "생",
+      "ref_pixels": 240473,
+      "rendered_pixels": 230162,
+      "coverage_pct": 95.6785,
+      "unfilled_pixels": 10392,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "인",
-      "unicode": "U+C778",
-      "archetype": "V2",
-      "strokes": 3,
-      "file": "C778_인.json"
+      "character": "인",
+      "ref_pixels": 207890,
+      "rendered_pixels": 207334,
+      "coverage_pct": 99.7326,
+      "unfilled_pixels": 556,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "자",
-      "unicode": "U+C790",
-      "archetype": "V1",
-      "strokes": 5,
-      "file": "C790_자.json"
+      "character": "자",
+      "ref_pixels": 197592,
+      "rendered_pixels": 189733,
+      "coverage_pct": 96.016,
+      "unfilled_pixels": 7872,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "일",
-      "unicode": "U+C77C",
-      "archetype": "V2",
-      "strokes": 5,
-      "file": "C77C_일.json"
+      "character": "일",
+      "ref_pixels": 254611,
+      "rendered_pixels": 248901,
+      "coverage_pct": 97.7574,
+      "unfilled_pixels": 5710,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "개",
-      "unicode": "U+AC1C",
-      "archetype": "V1",
-      "strokes": 4,
-      "file": "AC1C_개.json"
+      "character": "개",
+      "ref_pixels": 217285,
+      "rendered_pixels": 216588,
+      "coverage_pct": 99.6792,
+      "unfilled_pixels": 697,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "동",
-      "unicode": "U+B3D9",
-      "archetype": "H2",
-      "strokes": 5,
-      "file": "B3D9_동.json"
+      "character": "동",
+      "ref_pixels": 251467,
+      "rendered_pixels": 244076,
+      "coverage_pct": 97.0604,
+      "unfilled_pixels": 7392,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "년",
-      "unicode": "U+B144",
-      "archetype": "V2",
-      "strokes": 5,
-      "file": "B144_년.json"
+      "character": "년",
+      "ref_pixels": 212974,
+      "rendered_pixels": 202851,
+      "coverage_pct": 95.2468,
+      "unfilled_pixels": 10123,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "화",
-      "unicode": "U+D654",
-      "archetype": "C1",
-      "strokes": 7,
-      "file": "D654_화.json"
+      "character": "화",
+      "ref_pixels": 246786,
+      "rendered_pixels": 236035,
+      "coverage_pct": 95.6221,
+      "unfilled_pixels": 10804,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "장",
-      "unicode": "U+C7A5",
-      "archetype": "V2",
-      "strokes": 6,
-      "file": "C7A5_장.json"
+      "character": "장",
+      "ref_pixels": 237797,
+      "rendered_pixels": 227598,
+      "coverage_pct": 95.6833,
+      "unfilled_pixels": 10265,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "원",
-      "unicode": "U+C6D0",
-      "archetype": "C2",
-      "strokes": 6,
-      "file": "C6D0_원.json"
+      "character": "원",
+      "ref_pixels": 249541,
+      "rendered_pixels": 239518,
+      "coverage_pct": 95.9622,
+      "unfilled_pixels": 10076,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "국",
-      "unicode": "U+AD6D",
-      "archetype": "H2",
-      "strokes": 4,
-      "file": "AD6D_국.json"
+      "character": "국",
+      "ref_pixels": 194231,
+      "rendered_pixels": 194242,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "중",
-      "unicode": "U+C911",
-      "archetype": "H2",
-      "strokes": 6,
-      "file": "C911_중.json"
+      "character": "중",
+      "ref_pixels": 259739,
+      "rendered_pixels": 250246,
+      "coverage_pct": 96.3398,
+      "unfilled_pixels": 9507,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "경",
-      "unicode": "U+ACBD",
-      "archetype": "V2",
-      "strokes": 5,
-      "file": "ACBD_경.json"
+      "character": "경",
+      "ref_pixels": 240134,
+      "rendered_pixels": 228862,
+      "coverage_pct": 95.293,
+      "unfilled_pixels": 11303,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "력",
-      "unicode": "U+B825",
-      "archetype": "V2",
-      "strokes": 7,
-      "file": "B825_력.json"
+      "character": "력",
+      "ref_pixels": 232671,
+      "rendered_pixels": 221371,
+      "coverage_pct": 95.1434,
+      "unfilled_pixels": 11300,
+      "leakage_pixels": 0,
+      "pass": true
     },
     {
-      "syllable": "명",
-      "unicode": "U+BA85",
-      "archetype": "V2",
-      "strokes": 7,
-      "file": "BA85_명.json"
+      "character": "명",
+      "ref_pixels": 263254,
+      "rendered_pixels": 251512,
+      "coverage_pct": 95.5393,
+      "unfilled_pixels": 11743,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "글",
+      "ref_pixels": 254206,
+      "rendered_pixels": 244470,
+      "coverage_pct": 96.17,
+      "unfilled_pixels": 9736,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "꽃",
+      "ref_pixels": 245613,
+      "rendered_pixels": 241520,
+      "coverage_pct": 98.3319,
+      "unfilled_pixels": 4097,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "꿈",
+      "ref_pixels": 258545,
+      "rendered_pixels": 252733,
+      "coverage_pct": 97.7478,
+      "unfilled_pixels": 5823,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "별",
+      "ref_pixels": 293686,
+      "rendered_pixels": 288391,
+      "coverage_pct": 98.1971,
+      "unfilled_pixels": 5295,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "달",
+      "ref_pixels": 257825,
+      "rendered_pixels": 255469,
+      "coverage_pct": 99.0862,
+      "unfilled_pixels": 2356,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "봄",
+      "ref_pixels": 283877,
+      "rendered_pixels": 274065,
+      "coverage_pct": 96.5436,
+      "unfilled_pixels": 9812,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "눈",
+      "ref_pixels": 189517,
+      "rendered_pixels": 187631,
+      "coverage_pct": 99.0048,
+      "unfilled_pixels": 1886,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "물",
+      "ref_pixels": 297037,
+      "rendered_pixels": 285367,
+      "coverage_pct": 96.0712,
+      "unfilled_pixels": 11670,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "불",
+      "ref_pixels": 298072,
+      "rendered_pixels": 289595,
+      "coverage_pct": 97.1561,
+      "unfilled_pixels": 8477,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "산",
+      "ref_pixels": 191930,
+      "rendered_pixels": 184311,
+      "coverage_pct": 96.0126,
+      "unfilled_pixels": 7653,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "빛",
+      "ref_pixels": 244886,
+      "rendered_pixels": 232863,
+      "coverage_pct": 95.081,
+      "unfilled_pixels": 12046,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "솔",
+      "ref_pixels": 258793,
+      "rendered_pixels": 250144,
+      "coverage_pct": 96.6518,
+      "unfilled_pixels": 8665,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "새",
+      "ref_pixels": 224286,
+      "rendered_pixels": 214743,
+      "coverage_pct": 95.7389,
+      "unfilled_pixels": 9557,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "닭",
+      "ref_pixels": 246723,
+      "rendered_pixels": 242471,
+      "coverage_pct": 98.2766,
+      "unfilled_pixels": 4252,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "밥",
+      "ref_pixels": 264560,
+      "rendered_pixels": 251536,
+      "coverage_pct": 95.0771,
+      "unfilled_pixels": 13024,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "김",
+      "ref_pixels": 223553,
+      "rendered_pixels": 215409,
+      "coverage_pct": 96.357,
+      "unfilled_pixels": 8144,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "강",
+      "ref_pixels": 218912,
+      "rendered_pixels": 209374,
+      "coverage_pct": 95.6302,
+      "unfilled_pixels": 9566,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "바",
+      "ref_pixels": 220522,
+      "rendered_pixels": 220522,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "람",
+      "ref_pixels": 266438,
+      "rendered_pixels": 253660,
+      "coverage_pct": 95.2041,
+      "unfilled_pixels": 12778,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "구",
+      "ref_pixels": 156054,
+      "rendered_pixels": 156062,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "각",
+      "ref_pixels": 186207,
+      "rendered_pixels": 179405,
+      "coverage_pct": 96.3471,
+      "unfilled_pixels": 6802,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "곡",
+      "ref_pixels": 194259,
+      "rendered_pixels": 194259,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "광",
+      "ref_pixels": 247806,
+      "rendered_pixels": 239491,
+      "coverage_pct": 96.6377,
+      "unfilled_pixels": 8332,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "골",
+      "ref_pixels": 260993,
+      "rendered_pixels": 249393,
+      "coverage_pct": 95.5554,
+      "unfilled_pixels": 11600,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "곰",
+      "ref_pixels": 242045,
+      "rendered_pixels": 235810,
+      "coverage_pct": 97.424,
+      "unfilled_pixels": 6235,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "눈",
+      "ref_pixels": 189517,
+      "rendered_pixels": 187631,
+      "coverage_pct": 99.0048,
+      "unfilled_pixels": 1886,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "돈",
+      "ref_pixels": 221432,
+      "rendered_pixels": 218888,
+      "coverage_pct": 98.8511,
+      "unfilled_pixels": 2544,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "손",
+      "ref_pixels": 194305,
+      "rendered_pixels": 193900,
+      "coverage_pct": 99.771,
+      "unfilled_pixels": 445,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "간",
+      "ref_pixels": 198334,
+      "rendered_pixels": 190402,
+      "coverage_pct": 96.0007,
+      "unfilled_pixels": 7932,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "감",
+      "ref_pixels": 233313,
+      "rendered_pixels": 223576,
+      "coverage_pct": 95.8266,
+      "unfilled_pixels": 9737,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "남",
+      "ref_pixels": 220932,
+      "rendered_pixels": 211424,
+      "coverage_pct": 95.6964,
+      "unfilled_pixels": 9508,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "밤",
+      "ref_pixels": 262436,
+      "rendered_pixels": 250562,
+      "coverage_pct": 95.4755,
+      "unfilled_pixels": 11874,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "두",
+      "ref_pixels": 180212,
+      "rendered_pixels": 180212,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "루",
+      "ref_pixels": 223137,
+      "rendered_pixels": 214620,
+      "coverage_pct": 96.1831,
+      "unfilled_pixels": 8517,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "무",
+      "ref_pixels": 198252,
+      "rendered_pixels": 193841,
+      "coverage_pct": 97.7751,
+      "unfilled_pixels": 4411,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "부",
+      "ref_pixels": 204564,
+      "rendered_pixels": 203112,
+      "coverage_pct": 99.2902,
+      "unfilled_pixels": 1452,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "우",
+      "ref_pixels": 187243,
+      "rendered_pixels": 180856,
+      "coverage_pct": 96.5879,
+      "unfilled_pixels": 6389,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "추",
+      "ref_pixels": 196304,
+      "rendered_pixels": 193468,
+      "coverage_pct": 98.5548,
+      "unfilled_pixels": 2837,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "투",
+      "ref_pixels": 218415,
+      "rendered_pixels": 210369,
+      "coverage_pct": 96.3162,
+      "unfilled_pixels": 8046,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "푸",
+      "ref_pixels": 210859,
+      "rendered_pixels": 205864,
+      "coverage_pct": 97.6311,
+      "unfilled_pixels": 4995,
+      "leakage_pixels": 0,
+      "pass": true
     }
   ]
 }

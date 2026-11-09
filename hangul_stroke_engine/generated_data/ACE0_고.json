@@ -1,10 +1,10 @@
 {
   "character": "고",
   "unicode": "U+ACE0",
-  "font": "Noto Sans CJK KR Regular",
-  "decomposition": "ㄱ + ㅗ",
+  "decomp": "ㄱ + ㅗ",
   "archetype": "H1",
-  "noto_glyph_path": "M137 144V212H687V233C687 342 687 469 653 642L737 652C770 469 770 345 770 233V144ZM368 439V762H50V831H867V762H450V439Z",
+  "coverage": "99.9994% (미채움 1 px, 침범 0 px)",
+  "noto_path": "M137 144V212H687V233C687 342 687 469 653 642L737 652C770 469 770 345 770 233V144ZM368 439V762H50V831H867V762H450V439Z",
   "total_strokes": 3,
   "strokes": [
     {
@@ -13,13 +13,13 @@
       "color": "#3b82f6",
       "name": "ㄱ (직각 꺾음)",
       "clip_box": {
-        "x": 125,
+        "x": 120,
         "y": 130,
-        "w": 655,
-        "h": 535
+        "w": 670,
+        "h": 580
       },
-      "d": "M 130 178 L 740 178 C 740 340, 740 460, 695 655",
-      "width": 115,
+      "d": "M 130 185 L 725 185 C 725 340 725 500 690 670",
+      "width": 120,
       "duration": 0.6
     },
     {
@@ -28,10 +28,10 @@
       "color": "#f59e0b",
       "name": "ㅗ 1획 (세로점)",
       "clip_box": {
-        "x": 355,
+        "x": 349,
         "y": 430,
-        "w": 110,
-        "h": 345
+        "w": 120,
+        "h": 360
       },
       "d": "M 409 430 L 409 775",
       "width": 105,
@@ -44,13 +44,22 @@
       "name": "ㅗ 2획 (가로선)",
       "clip_box": {
         "x": 40,
-        "y": 750,
-        "w": 835,
-        "h": 95
+        "y": 740,
+        "w": 840,
+        "h": 110
       },
-      "d": "M 40 796 L 875 796",
-      "width": 95,
+      "d": "M 40 796 L 880 796",
+      "width": 110,
       "duration": 0.5
     }
-  ]
+  ],
+  "qa": {
+    "character": "고",
+    "ref_pixels": 162302,
+    "rendered_pixels": 162301,
+    "coverage_pct": 99.9994,
+    "unfilled_pixels": 1,
+    "leakage_pixels": 0,
+    "pass": true
+  }
 }
