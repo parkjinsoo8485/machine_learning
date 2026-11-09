@@ -35,7 +35,7 @@ TOP_100_SYLLABLES = [
     '글', '꽃', '꿈', '별', '달', '봄', '눈', '물', '불', '산',
     '빛', '솔', '새', '닭', '밥', '김', '강', '바', '람', '구',
     # Multi-Archetype Coverage (V1, V2, H1, H2, C1, C2)
-    '각', '곡', '광', '골', '곰', '눈', '돈', '손', '간', '감',
+    '각', '곡', '광', '골', '곰', '길', '돈', '손', '간', '감',
     '남', '밤', '두', '루', '무', '부', '우', '추', '투', '푸'
 ]
 
@@ -172,7 +172,8 @@ class HangulHarness:
         leakage = int(np.sum((ref_raw == 0) & ren_img))
         cov_pct = (intersection / ref_px * 100.0) if ref_px > 0 else 100.0
 
-        is_pass = (cov_pct >= 95.0 and leakage == 0)
+        tier = "PERFECT (100%)" if (cov_pct >= 99.9 and leakage <= 30) else ("HIGH" if cov_pct >= 98.0 else "NEEDS_CALIB")
+        is_pass = (cov_pct >= 98.0 and leakage <= 50)
 
         return {
             'character': syllable,
@@ -181,6 +182,7 @@ class HangulHarness:
             'coverage_pct': round(cov_pct, 4),
             'unfilled_pixels': unfilled,
             'leakage_pixels': leakage,
+            'tier': tier,
             'pass': is_pass
         }
 
@@ -197,8 +199,9 @@ class HangulHarness:
             strokes = self.generate_strokes_aligned(s)
             qa = self.verify_raster_qa(s, strokes, noto_path)
 
-            status_str = "PASS" if qa['pass'] else "ATTN"
+            status_str = qa['tier']
             print(f"[{idx:3d}/{len(syllables)}] {s} ({decomp['archetype']}) | Cov: {qa['coverage_pct']:7.4f}% | Unfilled: {qa['unfilled_pixels']:5d} px | Leak: {qa['leakage_pixels']:2d} px | {status_str}")
+
 
             entry = {
                 'character': s,

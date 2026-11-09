@@ -2,17 +2,14 @@
   "character": "별",
   "unicode": "U+BCC4",
   "font": "Noto Sans CJK KR Regular",
-  "decomposition": {
-    "choseong": "ㅂ",
-    "jungseong": "ㅕ",
-    "jongseong": "ㄹ"
-  },
+  "decomposition": "ㅂ + ㅕ + ㄹ",
   "noto_glyph_path": "M177 289H421V422H177ZM711 246V346H503V246ZM94 95V489H503V411H711V525H793V53H711V182H503V95H421V224H177V95ZM213 879V946H827V879H295V784H793V569H211V635H711V721H213Z",
   "total_strokes": 10,
   "strokes": [
     {
       "order": 1,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅂ 1획 (좌측 세로 기둥)",
       "clip_box": {
         "x": 90,
@@ -21,12 +18,13 @@
         "h": 405
       },
       "d": "M 135 90 L 135 495",
-      "width": 100,
+      "width": 110,
       "duration": 0.45
     },
     {
       "order": 2,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅂ 2획 (우측 세로 기둥)",
       "clip_box": {
         "x": 418,
@@ -35,12 +33,13 @@
         "h": 405
       },
       "d": "M 462 90 L 462 495",
-      "width": 100,
+      "width": 110,
       "duration": 0.45
     },
     {
       "order": 3,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅂ 3획 (중간 가로획)",
       "clip_box": {
         "x": 175,
@@ -49,12 +48,13 @@
         "h": 72
       },
       "d": "M 172 256 L 425 256",
-      "width": 85,
+      "width": 95,
       "duration": 0.35
     },
     {
       "order": 4,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅂ 4획 (하단 가로획)",
       "clip_box": {
         "x": 175,
@@ -63,12 +63,13 @@
         "h": 72
       },
       "d": "M 172 455 L 425 455",
-      "width": 85,
+      "width": 95,
       "duration": 0.35
     },
     {
       "order": 5,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅕ 1획 (상단 가로가지)",
       "clip_box": {
         "x": 503,
@@ -77,12 +78,13 @@
         "h": 69
       },
       "d": "M 500 214 L 715 214",
-      "width": 85,
+      "width": 95,
       "duration": 0.32
     },
     {
       "order": 6,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅕ 2획 (하단 가로가지)",
       "clip_box": {
         "x": 503,
@@ -91,12 +93,13 @@
         "h": 70
       },
       "d": "M 500 378 L 715 378",
-      "width": 85,
+      "width": 95,
       "duration": 0.32
     },
     {
       "order": 7,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅕ 3획 (긴 세로기둥)",
       "clip_box": {
         "x": 709,
@@ -105,12 +108,13 @@
         "h": 480
       },
       "d": "M 752 48 L 752 530",
-      "width": 100,
+      "width": 110,
       "duration": 0.55
     },
     {
       "order": 8,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄹ 1획 (상단 ㄱ 꺾음)",
       "clip_box": {
         "x": 208,
@@ -119,12 +123,13 @@
         "h": 160
       },
       "d": "M 208 602 L 752 602 L 752 725",
-      "width": 95,
+      "width": 105,
       "duration": 0.6
     },
     {
       "order": 9,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄹ 2획 (중간 가로막대)",
       "clip_box": {
         "x": 210,
@@ -133,12 +138,13 @@
         "h": 70
       },
       "d": "M 210 752 L 795 752",
-      "width": 85,
+      "width": 95,
       "duration": 0.45
     },
     {
       "order": 10,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄹ 3획 (하단 ㄴ 꺾음)",
       "clip_box": {
         "x": 208,
@@ -147,7 +153,7 @@
         "h": 172
       },
       "d": "M 254 775 L 254 912 L 832 912",
-      "width": 100,
+      "width": 110,
       "duration": 0.65
     }
   ]

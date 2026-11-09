@@ -1,0 +1,145 @@
+{
+  "character": "봄",
+  "unicode": "U+BD04",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㅂ + ㅗ + ㅁ",
+  "noto_glyph_path": "M240 237H678V339H240ZM150 656V946H767V656ZM686 722V878H231V722ZM158 72V406H417V505H50V573H867V505H500V406H760V72H678V173H240V72Z",
+  "total_strokes": 9,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 1획 (좌측 세로)",
+      "clip_box": {
+        "x": 150,
+        "y": 65,
+        "w": 95,
+        "h": 345
+      },
+      "d": "M 199 65 L 199 410",
+      "width": 105,
+      "duration": 0.45
+    },
+    {
+      "order": 2,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 2획 (우측 세로)",
+      "clip_box": {
+        "x": 670,
+        "y": 65,
+        "w": 95,
+        "h": 345
+      },
+      "d": "M 719 65 L 719 410",
+      "width": 105,
+      "duration": 0.45
+    },
+    {
+      "order": 3,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 3획 (중간 가로)",
+      "clip_box": {
+        "x": 190,
+        "y": 170,
+        "w": 535,
+        "h": 75
+      },
+      "d": "M 195 205 L 725 205",
+      "width": 90,
+      "duration": 0.35
+    },
+    {
+      "order": 4,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㅂ 4획 (하단 가로)",
+      "clip_box": {
+        "x": 190,
+        "y": 335,
+        "w": 535,
+        "h": 75
+      },
+      "d": "M 195 372 L 725 372",
+      "width": 90,
+      "duration": 0.35
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 1획 (세로점)",
+      "clip_box": {
+        "x": 405,
+        "y": 400,
+        "w": 105,
+        "h": 110
+      },
+      "d": "M 458 400 L 458 510",
+      "width": 105,
+      "duration": 0.3
+    },
+    {
+      "order": 6,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 2획 (긴 가로)",
+      "clip_box": {
+        "x": 40,
+        "y": 500,
+        "w": 835,
+        "h": 80
+      },
+      "d": "M 45 539 L 870 539",
+      "width": 95,
+      "duration": 0.5
+    },
+    {
+      "order": 7,
+      "part": "종성",
+      "color": "#10b981",
+      "name": "ㅁ 1획 (좌측 세로)",
+      "clip_box": {
+        "x": 140,
+        "y": 650,
+        "w": 95,
+        "h": 300
+      },
+      "d": "M 190 650 L 190 950",
+      "width": 105,
+      "duration": 0.45
+    },
+    {
+      "order": 8,
+      "part": "종성",
+      "color": "#10b981",
+      "name": "ㅁ 2획 (상우 꺾음)",
+      "clip_box": {
+        "x": 230,
+        "y": 650,
+        "w": 545,
+        "h": 300
+      },
+      "d": "M 190 689 L 726 689 L 726 950",
+      "width": 105,
+      "duration": 0.65
+    },
+    {
+      "order": 9,
+      "part": "종성",
+      "color": "#10b981",
+      "name": "ㅁ 3획 (하단 가로)",
+      "clip_box": {
+        "x": 230,
+        "y": 870,
+        "w": 460,
+        "h": 80
+      },
+      "d": "M 190 912 L 726 912",
+      "width": 95,
+      "duration": 0.4
+    }
+  ]
+}

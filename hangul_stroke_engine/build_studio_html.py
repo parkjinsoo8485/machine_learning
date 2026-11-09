@@ -3,6 +3,7 @@ Build Clean Pristine Hangul Stroke Studio Web Artifact
 ======================================================
 """
 
+import os
 import json
 
 with open('/tmp/bundle_verified.json', 'r', encoding='utf-8') as f:
@@ -61,7 +62,7 @@ html_content = f'''<!DOCTYPE html>
                  class="w-32 px-2.5 py-1 text-xs rounded-xl border border-[var(--border)] bg-[var(--background)] focus:outline-none focus:ring-1 focus:ring-indigo-500 font-bold"
                  oninput="filterSyllables(this.value)" />
           <div class="flex items-center gap-1 text-[11px] overflow-x-auto py-0.5">
-            <button onclick="setFilterCategory('all')" id="tab-all" class="cat-tab px-2.5 py-1 rounded-lg font-bold bg-indigo-600 text-white">전체 (89)</button>
+            <button onclick="setFilterCategory('all')" id="tab-all" class="cat-tab px-2.5 py-1 rounded-lg font-bold bg-indigo-600 text-white">전체 ({len(bundle)})</button>
             <button onclick="setFilterCategory('high')" id="tab-high" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">대표 글자</button>
             <button onclick="setFilterCategory('H')" id="tab-H" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">수평 H1/H2</button>
             <button onclick="setFilterCategory('V')" id="tab-V" class="cat-tab px-2.5 py-1 rounded-lg font-medium hover:bg-[var(--border)] text-[var(--muted-foreground)]">수직 V1/V2</button>
@@ -666,13 +667,19 @@ html_content = f'''<!DOCTYPE html>
 </html>
 '''
 
-# 1. Write hangul_stroke_player.html
-out1 = '/home/antigravity/.gemini/jetski/brain/v1/default/jetski_remote_agents_3p/dcbc4209-7510-4478-b58b-435165f5a48a/hangul_stroke_player.html'
+import glob
+
+# Current conversation artifact directory
+CONV_ARTIFACT_DIR = '/home/antigravity/.gemini/jetski/brain/v1/default/jetski_remote_agents_3p/54c2726c-895d-4c95-ad94-1daf5cbf9048'
+os.makedirs(CONV_ARTIFACT_DIR, exist_ok=True)
+
+# 1. Write hangul_stroke_player.html to current artifact directory
+out1 = os.path.join(CONV_ARTIFACT_DIR, 'hangul_stroke_player.html')
 with open(out1, 'w', encoding='utf-8') as f:
     f.write(html_content)
 
-# 2. Also write hangul_stroke_studio.html for fresh window
-out2 = '/home/antigravity/.gemini/jetski/brain/v1/default/jetski_remote_agents_3p/dcbc4209-7510-4478-b58b-435165f5a48a/hangul_stroke_studio.html'
+# 2. Write hangul_stroke_studio.html
+out2 = os.path.join(CONV_ARTIFACT_DIR, 'hangul_stroke_studio.html')
 with open(out2, 'w', encoding='utf-8') as f:
     f.write(html_content)
 
@@ -685,3 +692,4 @@ with open(repo_out2, 'w', encoding='utf-8') as f:
     f.write(html_content)
 
 print(f"Generated clean studio HTML at {out1}, {out2}, and repo!")
+

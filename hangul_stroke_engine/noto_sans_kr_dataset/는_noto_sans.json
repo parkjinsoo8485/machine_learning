@@ -1,0 +1,55 @@
+{
+  "character": "는",
+  "unicode": "U+B294",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄴ + ㅡ + ㄴ",
+  "noto_glyph_path": "M49 514V581H869V514ZM160 86V392H775V325H242V86ZM154 672V936H780V868H237V672Z",
+  "total_strokes": 3,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄴ 1획 (ㄴ 꺾음)",
+      "clip_box": {
+        "x": 150,
+        "y": 80,
+        "w": 635,
+        "h": 325
+      },
+      "d": "M 202 80 L 202 360 L 780 360",
+      "width": 105,
+      "duration": 0.55
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅡ (가운데 긴 가로)",
+      "clip_box": {
+        "x": 40,
+        "y": 505,
+        "w": 835,
+        "h": 85
+      },
+      "d": "M 45 547 L 875 547",
+      "width": 95,
+      "duration": 0.5
+    },
+    {
+      "order": 3,
+      "part": "종성",
+      "color": "#10b981",
+      "name": "ㄴ 받침 (ㄴ 꺾음)",
+      "clip_box": {
+        "x": 145,
+        "y": 665,
+        "w": 645,
+        "h": 285
+      },
+      "d": "M 195 665 L 195 904 L 785 904",
+      "width": 105,
+      "duration": 0.6
+    }
+  ]
+}

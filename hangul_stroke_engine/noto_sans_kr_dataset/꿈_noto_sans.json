@@ -2,17 +2,14 @@
   "character": "꿈",
   "unicode": "U+AFC8",
   "font": "Noto Sans CJK KR Regular",
-  "decomposition": {
-    "choseong": "ㄲ",
-    "jungseong": "ㅜ",
-    "jongseong": "ㅁ"
-  },
+  "decomposition": "ㄲ + ㅜ + ㅁ",
   "noto_glyph_path": "M683 694V878H233V694ZM152 628V945H765V628H498V476H869V408H744C772 280 772 187 772 132V96H486V164H692C691 220 687 300 661 408H385C419 271 419 172 419 123V96H129V164H338C336 219 330 300 302 408H50V476H416V628Z",
   "total_strokes": 7,
   "strokes": [
     {
       "order": 1,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "첫째 ㄱ",
       "clip_box": {
         "x": 125,
@@ -21,12 +18,13 @@
         "h": 320
       },
       "d": "M 125 130 L 385 130 L 340 415",
-      "width": 95,
+      "width": 110,
       "duration": 0.45
     },
     {
       "order": 2,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "둘째 ㄱ",
       "clip_box": {
         "x": 482,
@@ -35,12 +33,13 @@
         "h": 320
       },
       "d": "M 482 130 L 745 130 L 700 415",
-      "width": 95,
+      "width": 110,
       "duration": 0.45
     },
     {
       "order": 3,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅜ 1획 (가로선)",
       "clip_box": {
         "x": 46,
@@ -49,26 +48,28 @@
         "h": 76
       },
       "d": "M 46 442 L 873 442",
-      "width": 85,
+      "width": 95,
       "duration": 0.5
     },
     {
       "order": 4,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅜ 2획 (세로점)",
       "clip_box": {
         "x": 412,
         "y": 472,
         "w": 90,
-        "h": 160
+        "h": 166
       },
-      "d": "M 457 472 L 457 632",
-      "width": 90,
+      "d": "M 457 472 L 457 636",
+      "width": 105,
       "duration": 0.3
     },
     {
       "order": 5,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㅁ 1획 (좌측 세로)",
       "clip_box": {
         "x": 148,
@@ -77,12 +78,13 @@
         "h": 325
       },
       "d": "M 192 624 L 192 949",
-      "width": 95,
+      "width": 105,
       "duration": 0.45
     },
     {
       "order": 6,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㅁ 2획 (상우 꺾음)",
       "clip_box": {
         "x": 233,
@@ -91,12 +93,13 @@
         "h": 325
       },
       "d": "M 192 661 L 724 661 L 724 949",
-      "width": 95,
-      "duration": 0.6
+      "width": 105,
+      "duration": 0.65
     },
     {
       "order": 7,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㅁ 3획 (하단 가로)",
       "clip_box": {
         "x": 233,
@@ -105,7 +108,7 @@
         "h": 75
       },
       "d": "M 192 911 L 724 911",
-      "width": 85,
+      "width": 95,
       "duration": 0.4
     }
   ]

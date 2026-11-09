@@ -2,17 +2,14 @@
   "character": "한",
   "unicode": "U+D55C",
   "font": "Noto Sans CJK KR Regular",
-  "decomposition": {
-    "choseong": "ㅎ",
-    "jungseong": "ㅏ",
-    "jongseong": "ㄴ"
-  },
+  "decomposition": "ㅎ + ㅏ + ㄴ",
   "noto_glyph_path": "M319 280C190 280 102 347 102 449C102 551 190 617 319 617C447 617 535 551 535 449C535 347 447 280 319 280ZM319 345C401 345 456 386 456 449C456 512 401 552 319 552C237 552 182 512 182 449C182 386 237 345 319 345ZM669 54V732H752V420H885V351H752V54ZM278 54V164H52V231H586V164H361V54ZM189 678V938H792V870H271V678Z",
   "total_strokes": 6,
   "strokes": [
     {
       "order": 1,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅎ 1획 (상단 꼭지점)",
       "clip_box": {
         "x": 270,
@@ -21,12 +18,13 @@
         "h": 118
       },
       "d": "M 319 50 L 319 168",
-      "width": 100,
+      "width": 105,
       "duration": 0.3
     },
     {
       "order": 2,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅎ 2획 (중간 가로획)",
       "clip_box": {
         "x": 45,
@@ -35,12 +33,13 @@
         "h": 85
       },
       "d": "M 45 197 L 595 197",
-      "width": 95,
+      "width": 105,
       "duration": 0.45
     },
     {
       "order": 3,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㅎ 3획 (원형 폐곡선)",
       "clip_box": {
         "x": 95,
@@ -49,12 +48,13 @@
         "h": 355
       },
       "d": "M 319 312 A 177 136 0 1 0 319 584 A 177 136 0 1 0 319 312",
-      "width": 115,
+      "width": 120,
       "duration": 0.75
     },
     {
       "order": 4,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅏ 1획 (우측 긴 세로)",
       "clip_box": {
         "x": 660,
@@ -63,12 +63,13 @@
         "h": 695
       },
       "d": "M 710 45 L 710 740",
-      "width": 105,
+      "width": 110,
       "duration": 0.6
     },
     {
       "order": 5,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅏ 2획 (우측 가로가지)",
       "clip_box": {
         "x": 745,
@@ -77,12 +78,13 @@
         "h": 80
       },
       "d": "M 745 385 L 895 385",
-      "width": 95,
+      "width": 100,
       "duration": 0.3
     },
     {
       "order": 6,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄴ 1획 (받침 ㄴ 꺾음)",
       "clip_box": {
         "x": 180,
@@ -91,7 +93,7 @@
         "h": 275
       },
       "d": "M 230 670 L 230 904 L 800 904",
-      "width": 105,
+      "width": 110,
       "duration": 0.65
     }
   ]

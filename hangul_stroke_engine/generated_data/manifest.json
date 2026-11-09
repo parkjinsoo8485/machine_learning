@@ -1,635 +1,11 @@
 {
-  "timestamp": "2026-11-09T13:37:58Z",
-  "total_syllables": 90,
-  "passed_count": 90,
-  "avg_coverage": 97.3452,
-  "elapsed_sec": 13.14,
+  "total_syllables": 89,
+  "perfect_count": 22,
   "syllables": [
-    {
-      "character": "이",
-      "ref_pixels": 191796,
-      "rendered_pixels": 191796,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "다",
-      "ref_pixels": 186124,
-      "rendered_pixels": 186029,
-      "coverage_pct": 99.949,
-      "unfilled_pixels": 95,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "는",
-      "ref_pixels": 174579,
-      "rendered_pixels": 174579,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "에",
-      "ref_pixels": 253953,
-      "rendered_pixels": 251013,
-      "coverage_pct": 98.8423,
-      "unfilled_pixels": 2940,
-      "leakage_pixels": 0,
-      "pass": true
-    },
     {
       "character": "가",
       "ref_pixels": 168983,
       "rendered_pixels": 168983,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "하",
-      "ref_pixels": 215553,
-      "rendered_pixels": 208059,
-      "coverage_pct": 96.5234,
-      "unfilled_pixels": 7494,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "은",
-      "ref_pixels": 214168,
-      "rendered_pixels": 213741,
-      "coverage_pct": 99.7997,
-      "unfilled_pixels": 429,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "을",
-      "ref_pixels": 277743,
-      "rendered_pixels": 277169,
-      "coverage_pct": 99.7933,
-      "unfilled_pixels": 574,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "를",
-      "ref_pixels": 296881,
-      "rendered_pixels": 284353,
-      "coverage_pct": 95.7801,
-      "unfilled_pixels": 12528,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "의",
-      "ref_pixels": 207777,
-      "rendered_pixels": 205208,
-      "coverage_pct": 98.7636,
-      "unfilled_pixels": 2569,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "고",
-      "ref_pixels": 162302,
-      "rendered_pixels": 162301,
-      "coverage_pct": 99.9994,
-      "unfilled_pixels": 1,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "로",
-      "ref_pixels": 219886,
-      "rendered_pixels": 215322,
-      "coverage_pct": 97.9244,
-      "unfilled_pixels": 4564,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "지",
-      "ref_pixels": 189703,
-      "rendered_pixels": 183144,
-      "coverage_pct": 96.533,
-      "unfilled_pixels": 6577,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "있",
-      "ref_pixels": 223407,
-      "rendered_pixels": 213720,
-      "coverage_pct": 95.6452,
-      "unfilled_pixels": 9729,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "한",
-      "ref_pixels": 238850,
-      "rendered_pixels": 227122,
-      "coverage_pct": 95.0844,
-      "unfilled_pixels": 11741,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "수",
-      "ref_pixels": 155331,
-      "rendered_pixels": 150749,
-      "coverage_pct": 97.0457,
-      "unfilled_pixels": 4589,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "기",
-      "ref_pixels": 159811,
-      "rendered_pixels": 159412,
-      "coverage_pct": 99.7503,
-      "unfilled_pixels": 399,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "과",
-      "ref_pixels": 204720,
-      "rendered_pixels": 195129,
-      "coverage_pct": 95.3082,
-      "unfilled_pixels": 9605,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "서",
-      "ref_pixels": 174906,
-      "rendered_pixels": 166656,
-      "coverage_pct": 95.2763,
-      "unfilled_pixels": 8262,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "들",
-      "ref_pixels": 281811,
-      "rendered_pixels": 267741,
-      "coverage_pct": 95.0073,
-      "unfilled_pixels": 14070,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "되",
-      "ref_pixels": 211343,
-      "rendered_pixels": 208800,
-      "coverage_pct": 98.7915,
-      "unfilled_pixels": 2554,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "주",
-      "ref_pixels": 190473,
-      "rendered_pixels": 183361,
-      "coverage_pct": 96.2661,
-      "unfilled_pixels": 7112,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "어",
-      "ref_pixels": 202187,
-      "rendered_pixels": 200189,
-      "coverage_pct": 99.0083,
-      "unfilled_pixels": 2005,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "도",
-      "ref_pixels": 182233,
-      "rendered_pixels": 182233,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "보",
-      "ref_pixels": 211443,
-      "rendered_pixels": 210893,
-      "coverage_pct": 99.7399,
-      "unfilled_pixels": 550,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "시",
-      "ref_pixels": 163083,
-      "rendered_pixels": 156422,
-      "coverage_pct": 95.9058,
-      "unfilled_pixels": 6677,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "그",
-      "ref_pixels": 136451,
-      "rendered_pixels": 136451,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "대",
-      "ref_pixels": 230968,
-      "rendered_pixels": 229966,
-      "coverage_pct": 99.5662,
-      "unfilled_pixels": 1002,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "상",
-      "ref_pixels": 211417,
-      "rendered_pixels": 201650,
-      "coverage_pct": 95.3542,
-      "unfilled_pixels": 9822,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "문",
-      "ref_pixels": 239213,
-      "rendered_pixels": 230956,
-      "coverage_pct": 96.5483,
-      "unfilled_pixels": 8257,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "정",
-      "ref_pixels": 242114,
-      "rendered_pixels": 236282,
-      "coverage_pct": 97.5536,
-      "unfilled_pixels": 5923,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "해",
-      "ref_pixels": 261787,
-      "rendered_pixels": 249393,
-      "coverage_pct": 95.2649,
-      "unfilled_pixels": 12396,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "것",
-      "ref_pixels": 202264,
-      "rendered_pixels": 195788,
-      "coverage_pct": 96.7819,
-      "unfilled_pixels": 6509,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "사",
-      "ref_pixels": 170957,
-      "rendered_pixels": 163543,
-      "coverage_pct": 95.6621,
-      "unfilled_pixels": 7416,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "전",
-      "ref_pixels": 220326,
-      "rendered_pixels": 210586,
-      "coverage_pct": 95.5747,
-      "unfilled_pixels": 9750,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "생",
-      "ref_pixels": 240473,
-      "rendered_pixels": 230162,
-      "coverage_pct": 95.6785,
-      "unfilled_pixels": 10392,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "인",
-      "ref_pixels": 207890,
-      "rendered_pixels": 207334,
-      "coverage_pct": 99.7326,
-      "unfilled_pixels": 556,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "자",
-      "ref_pixels": 197592,
-      "rendered_pixels": 189733,
-      "coverage_pct": 96.016,
-      "unfilled_pixels": 7872,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "일",
-      "ref_pixels": 254611,
-      "rendered_pixels": 248901,
-      "coverage_pct": 97.7574,
-      "unfilled_pixels": 5710,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "개",
-      "ref_pixels": 217285,
-      "rendered_pixels": 216588,
-      "coverage_pct": 99.6792,
-      "unfilled_pixels": 697,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "동",
-      "ref_pixels": 251467,
-      "rendered_pixels": 244076,
-      "coverage_pct": 97.0604,
-      "unfilled_pixels": 7392,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "년",
-      "ref_pixels": 212974,
-      "rendered_pixels": 202851,
-      "coverage_pct": 95.2468,
-      "unfilled_pixels": 10123,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "화",
-      "ref_pixels": 246786,
-      "rendered_pixels": 236035,
-      "coverage_pct": 95.6221,
-      "unfilled_pixels": 10804,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "장",
-      "ref_pixels": 237797,
-      "rendered_pixels": 227598,
-      "coverage_pct": 95.6833,
-      "unfilled_pixels": 10265,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "원",
-      "ref_pixels": 249541,
-      "rendered_pixels": 239518,
-      "coverage_pct": 95.9622,
-      "unfilled_pixels": 10076,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "국",
-      "ref_pixels": 194231,
-      "rendered_pixels": 194242,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "중",
-      "ref_pixels": 259739,
-      "rendered_pixels": 250246,
-      "coverage_pct": 96.3398,
-      "unfilled_pixels": 9507,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "경",
-      "ref_pixels": 240134,
-      "rendered_pixels": 228862,
-      "coverage_pct": 95.293,
-      "unfilled_pixels": 11303,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "력",
-      "ref_pixels": 232671,
-      "rendered_pixels": 221371,
-      "coverage_pct": 95.1434,
-      "unfilled_pixels": 11300,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "명",
-      "ref_pixels": 263254,
-      "rendered_pixels": 251512,
-      "coverage_pct": 95.5393,
-      "unfilled_pixels": 11743,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "글",
-      "ref_pixels": 254206,
-      "rendered_pixels": 244470,
-      "coverage_pct": 96.17,
-      "unfilled_pixels": 9736,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "꽃",
-      "ref_pixels": 245613,
-      "rendered_pixels": 241520,
-      "coverage_pct": 98.3319,
-      "unfilled_pixels": 4097,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "꿈",
-      "ref_pixels": 258545,
-      "rendered_pixels": 252733,
-      "coverage_pct": 97.7478,
-      "unfilled_pixels": 5823,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "별",
-      "ref_pixels": 293686,
-      "rendered_pixels": 288391,
-      "coverage_pct": 98.1971,
-      "unfilled_pixels": 5295,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "달",
-      "ref_pixels": 257825,
-      "rendered_pixels": 255469,
-      "coverage_pct": 99.0862,
-      "unfilled_pixels": 2356,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "봄",
-      "ref_pixels": 283877,
-      "rendered_pixels": 274065,
-      "coverage_pct": 96.5436,
-      "unfilled_pixels": 9812,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "눈",
-      "ref_pixels": 189517,
-      "rendered_pixels": 187631,
-      "coverage_pct": 99.0048,
-      "unfilled_pixels": 1886,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "물",
-      "ref_pixels": 297037,
-      "rendered_pixels": 285367,
-      "coverage_pct": 96.0712,
-      "unfilled_pixels": 11670,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "불",
-      "ref_pixels": 298072,
-      "rendered_pixels": 289595,
-      "coverage_pct": 97.1561,
-      "unfilled_pixels": 8477,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "산",
-      "ref_pixels": 191930,
-      "rendered_pixels": 184311,
-      "coverage_pct": 96.0126,
-      "unfilled_pixels": 7653,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "빛",
-      "ref_pixels": 244886,
-      "rendered_pixels": 232863,
-      "coverage_pct": 95.081,
-      "unfilled_pixels": 12046,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "솔",
-      "ref_pixels": 258793,
-      "rendered_pixels": 250144,
-      "coverage_pct": 96.6518,
-      "unfilled_pixels": 8665,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "새",
-      "ref_pixels": 224286,
-      "rendered_pixels": 214743,
-      "coverage_pct": 95.7389,
-      "unfilled_pixels": 9557,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "닭",
-      "ref_pixels": 246723,
-      "rendered_pixels": 242471,
-      "coverage_pct": 98.2766,
-      "unfilled_pixels": 4252,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "밥",
-      "ref_pixels": 264560,
-      "rendered_pixels": 251536,
-      "coverage_pct": 95.0771,
-      "unfilled_pixels": 13024,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "김",
-      "ref_pixels": 223553,
-      "rendered_pixels": 215409,
-      "coverage_pct": 96.357,
-      "unfilled_pixels": 8144,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "강",
-      "ref_pixels": 218912,
-      "rendered_pixels": 209374,
-      "coverage_pct": 95.6302,
-      "unfilled_pixels": 9566,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "바",
-      "ref_pixels": 220522,
-      "rendered_pixels": 220522,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "람",
-      "ref_pixels": 266438,
-      "rendered_pixels": 253660,
-      "coverage_pct": 95.2041,
-      "unfilled_pixels": 12778,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "구",
-      "ref_pixels": 156054,
-      "rendered_pixels": 156062,
       "coverage_pct": 100.0,
       "unfilled_pixels": 0,
       "leakage_pixels": 0,
@@ -641,69 +17,6 @@
       "rendered_pixels": 179405,
       "coverage_pct": 96.3471,
       "unfilled_pixels": 6802,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "곡",
-      "ref_pixels": 194259,
-      "rendered_pixels": 194259,
-      "coverage_pct": 100.0,
-      "unfilled_pixels": 0,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "광",
-      "ref_pixels": 247806,
-      "rendered_pixels": 239491,
-      "coverage_pct": 96.6377,
-      "unfilled_pixels": 8332,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "골",
-      "ref_pixels": 260993,
-      "rendered_pixels": 249393,
-      "coverage_pct": 95.5554,
-      "unfilled_pixels": 11600,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "곰",
-      "ref_pixels": 242045,
-      "rendered_pixels": 235810,
-      "coverage_pct": 97.424,
-      "unfilled_pixels": 6235,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "눈",
-      "ref_pixels": 189517,
-      "rendered_pixels": 187631,
-      "coverage_pct": 99.0048,
-      "unfilled_pixels": 1886,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "돈",
-      "ref_pixels": 221432,
-      "rendered_pixels": 218888,
-      "coverage_pct": 98.8511,
-      "unfilled_pixels": 2544,
-      "leakage_pixels": 0,
-      "pass": true
-    },
-    {
-      "character": "손",
-      "ref_pixels": 194305,
-      "rendered_pixels": 193900,
-      "coverage_pct": 99.771,
-      "unfilled_pixels": 445,
       "leakage_pixels": 0,
       "pass": true
     },
@@ -726,6 +39,168 @@
       "pass": true
     },
     {
+      "character": "강",
+      "ref_pixels": 218912,
+      "rendered_pixels": 209374,
+      "coverage_pct": 95.6302,
+      "unfilled_pixels": 9566,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "개",
+      "ref_pixels": 217285,
+      "rendered_pixels": 216588,
+      "coverage_pct": 99.6792,
+      "unfilled_pixels": 697,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "것",
+      "ref_pixels": 202264,
+      "rendered_pixels": 195788,
+      "coverage_pct": 96.7819,
+      "unfilled_pixels": 6509,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "경",
+      "ref_pixels": 240134,
+      "rendered_pixels": 228862,
+      "coverage_pct": 95.293,
+      "unfilled_pixels": 11303,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "고",
+      "ref_pixels": 162302,
+      "rendered_pixels": 162302,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "곡",
+      "ref_pixels": 194259,
+      "rendered_pixels": 194259,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "골",
+      "ref_pixels": 260993,
+      "rendered_pixels": 249393,
+      "coverage_pct": 95.5554,
+      "unfilled_pixels": 11600,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "곰",
+      "ref_pixels": 242045,
+      "rendered_pixels": 235810,
+      "coverage_pct": 97.424,
+      "unfilled_pixels": 6235,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "과",
+      "ref_pixels": 204720,
+      "rendered_pixels": 195129,
+      "coverage_pct": 95.3082,
+      "unfilled_pixels": 9605,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "광",
+      "ref_pixels": 247806,
+      "rendered_pixels": 239491,
+      "coverage_pct": 96.6377,
+      "unfilled_pixels": 8332,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "구",
+      "ref_pixels": 156054,
+      "rendered_pixels": 156062,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "국",
+      "ref_pixels": 194231,
+      "rendered_pixels": 194242,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "그",
+      "ref_pixels": 136451,
+      "rendered_pixels": 136428,
+      "coverage_pct": 99.9831,
+      "unfilled_pixels": 23,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "글",
+      "ref_pixels": 254206,
+      "rendered_pixels": 254208,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 2,
+      "pass": true
+    },
+    {
+      "character": "기",
+      "ref_pixels": 159811,
+      "rendered_pixels": 159412,
+      "coverage_pct": 99.7503,
+      "unfilled_pixels": 399,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "김",
+      "ref_pixels": 223553,
+      "rendered_pixels": 215409,
+      "coverage_pct": 96.357,
+      "unfilled_pixels": 8144,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "꽃",
+      "ref_pixels": 245613,
+      "rendered_pixels": 245620,
+      "coverage_pct": 99.9996,
+      "unfilled_pixels": 1,
+      "leakage_pixels": 8,
+      "pass": true
+    },
+    {
+      "character": "꿈",
+      "ref_pixels": 258545,
+      "rendered_pixels": 258548,
+      "coverage_pct": 99.9996,
+      "unfilled_pixels": 1,
+      "leakage_pixels": 4,
+      "pass": true
+    },
+    {
       "character": "남",
       "ref_pixels": 220932,
       "rendered_pixels": 211424,
@@ -735,11 +210,101 @@
       "pass": true
     },
     {
-      "character": "밤",
-      "ref_pixels": 262436,
-      "rendered_pixels": 250562,
-      "coverage_pct": 95.4755,
-      "unfilled_pixels": 11874,
+      "character": "년",
+      "ref_pixels": 212974,
+      "rendered_pixels": 202851,
+      "coverage_pct": 95.2468,
+      "unfilled_pixels": 10123,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "눈",
+      "ref_pixels": 189517,
+      "rendered_pixels": 189515,
+      "coverage_pct": 99.9989,
+      "unfilled_pixels": 2,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "는",
+      "ref_pixels": 174579,
+      "rendered_pixels": 174579,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "다",
+      "ref_pixels": 186124,
+      "rendered_pixels": 186079,
+      "coverage_pct": 99.9758,
+      "unfilled_pixels": 45,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "달",
+      "ref_pixels": 257825,
+      "rendered_pixels": 257825,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "닭",
+      "ref_pixels": 246723,
+      "rendered_pixels": 242471,
+      "coverage_pct": 98.2766,
+      "unfilled_pixels": 4252,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "대",
+      "ref_pixels": 230968,
+      "rendered_pixels": 229966,
+      "coverage_pct": 99.5662,
+      "unfilled_pixels": 1002,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "도",
+      "ref_pixels": 182233,
+      "rendered_pixels": 182233,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "돈",
+      "ref_pixels": 221432,
+      "rendered_pixels": 218888,
+      "coverage_pct": 98.8511,
+      "unfilled_pixels": 2544,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "동",
+      "ref_pixels": 251467,
+      "rendered_pixels": 244076,
+      "coverage_pct": 97.0604,
+      "unfilled_pixels": 7392,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "되",
+      "ref_pixels": 211343,
+      "rendered_pixels": 208800,
+      "coverage_pct": 98.7915,
+      "unfilled_pixels": 2554,
       "leakage_pixels": 0,
       "pass": true
     },
@@ -753,11 +318,65 @@
       "pass": true
     },
     {
+      "character": "들",
+      "ref_pixels": 281811,
+      "rendered_pixels": 267741,
+      "coverage_pct": 95.0073,
+      "unfilled_pixels": 14070,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "람",
+      "ref_pixels": 266438,
+      "rendered_pixels": 253660,
+      "coverage_pct": 95.2041,
+      "unfilled_pixels": 12778,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "력",
+      "ref_pixels": 232671,
+      "rendered_pixels": 221371,
+      "coverage_pct": 95.1434,
+      "unfilled_pixels": 11300,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "로",
+      "ref_pixels": 219886,
+      "rendered_pixels": 215322,
+      "coverage_pct": 97.9244,
+      "unfilled_pixels": 4564,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
       "character": "루",
       "ref_pixels": 223137,
       "rendered_pixels": 214620,
       "coverage_pct": 96.1831,
       "unfilled_pixels": 8517,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "를",
+      "ref_pixels": 296881,
+      "rendered_pixels": 284353,
+      "coverage_pct": 95.7801,
+      "unfilled_pixels": 12528,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "명",
+      "ref_pixels": 263254,
+      "rendered_pixels": 251512,
+      "coverage_pct": 95.5393,
+      "unfilled_pixels": 11743,
       "leakage_pixels": 0,
       "pass": true
     },
@@ -771,6 +390,78 @@
       "pass": true
     },
     {
+      "character": "문",
+      "ref_pixels": 239213,
+      "rendered_pixels": 230956,
+      "coverage_pct": 96.5483,
+      "unfilled_pixels": 8257,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "물",
+      "ref_pixels": 297037,
+      "rendered_pixels": 297037,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "바",
+      "ref_pixels": 220522,
+      "rendered_pixels": 220522,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "밤",
+      "ref_pixels": 262436,
+      "rendered_pixels": 250562,
+      "coverage_pct": 95.4755,
+      "unfilled_pixels": 11874,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "밥",
+      "ref_pixels": 264560,
+      "rendered_pixels": 251536,
+      "coverage_pct": 95.0771,
+      "unfilled_pixels": 13024,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "별",
+      "ref_pixels": 293686,
+      "rendered_pixels": 293686,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "보",
+      "ref_pixels": 211443,
+      "rendered_pixels": 210893,
+      "coverage_pct": 99.7399,
+      "unfilled_pixels": 550,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "봄",
+      "ref_pixels": 283877,
+      "rendered_pixels": 283877,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
       "character": "부",
       "ref_pixels": 204564,
       "rendered_pixels": 203112,
@@ -780,11 +471,272 @@
       "pass": true
     },
     {
+      "character": "불",
+      "ref_pixels": 298072,
+      "rendered_pixels": 289595,
+      "coverage_pct": 97.1561,
+      "unfilled_pixels": 8477,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "빛",
+      "ref_pixels": 244886,
+      "rendered_pixels": 232863,
+      "coverage_pct": 95.081,
+      "unfilled_pixels": 12046,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "사",
+      "ref_pixels": 170957,
+      "rendered_pixels": 163543,
+      "coverage_pct": 95.6621,
+      "unfilled_pixels": 7416,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "산",
+      "ref_pixels": 191930,
+      "rendered_pixels": 191958,
+      "coverage_pct": 99.9995,
+      "unfilled_pixels": 1,
+      "leakage_pixels": 29,
+      "pass": true
+    },
+    {
+      "character": "상",
+      "ref_pixels": 211417,
+      "rendered_pixels": 201650,
+      "coverage_pct": 95.3542,
+      "unfilled_pixels": 9822,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "새",
+      "ref_pixels": 224286,
+      "rendered_pixels": 214743,
+      "coverage_pct": 95.7389,
+      "unfilled_pixels": 9557,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "생",
+      "ref_pixels": 240473,
+      "rendered_pixels": 230162,
+      "coverage_pct": 95.6785,
+      "unfilled_pixels": 10392,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "서",
+      "ref_pixels": 174906,
+      "rendered_pixels": 166656,
+      "coverage_pct": 95.2763,
+      "unfilled_pixels": 8262,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "손",
+      "ref_pixels": 194305,
+      "rendered_pixels": 193900,
+      "coverage_pct": 99.771,
+      "unfilled_pixels": 445,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "솔",
+      "ref_pixels": 258793,
+      "rendered_pixels": 250144,
+      "coverage_pct": 96.6518,
+      "unfilled_pixels": 8665,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "수",
+      "ref_pixels": 155331,
+      "rendered_pixels": 150749,
+      "coverage_pct": 97.0457,
+      "unfilled_pixels": 4589,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "시",
+      "ref_pixels": 163083,
+      "rendered_pixels": 156422,
+      "coverage_pct": 95.9058,
+      "unfilled_pixels": 6677,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "어",
+      "ref_pixels": 202187,
+      "rendered_pixels": 200189,
+      "coverage_pct": 99.0083,
+      "unfilled_pixels": 2005,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "에",
+      "ref_pixels": 253953,
+      "rendered_pixels": 251013,
+      "coverage_pct": 98.8423,
+      "unfilled_pixels": 2940,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
       "character": "우",
       "ref_pixels": 187243,
       "rendered_pixels": 180856,
       "coverage_pct": 96.5879,
       "unfilled_pixels": 6389,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "원",
+      "ref_pixels": 249541,
+      "rendered_pixels": 239518,
+      "coverage_pct": 95.9622,
+      "unfilled_pixels": 10076,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "은",
+      "ref_pixels": 214168,
+      "rendered_pixels": 213741,
+      "coverage_pct": 99.7997,
+      "unfilled_pixels": 429,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "을",
+      "ref_pixels": 277743,
+      "rendered_pixels": 277169,
+      "coverage_pct": 99.7933,
+      "unfilled_pixels": 574,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "의",
+      "ref_pixels": 207777,
+      "rendered_pixels": 205208,
+      "coverage_pct": 98.7636,
+      "unfilled_pixels": 2569,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "이",
+      "ref_pixels": 191796,
+      "rendered_pixels": 191796,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "인",
+      "ref_pixels": 207890,
+      "rendered_pixels": 207334,
+      "coverage_pct": 99.7326,
+      "unfilled_pixels": 556,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "일",
+      "ref_pixels": 254611,
+      "rendered_pixels": 248901,
+      "coverage_pct": 97.7574,
+      "unfilled_pixels": 5710,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "있",
+      "ref_pixels": 223407,
+      "rendered_pixels": 213720,
+      "coverage_pct": 95.6452,
+      "unfilled_pixels": 9729,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "자",
+      "ref_pixels": 197592,
+      "rendered_pixels": 189733,
+      "coverage_pct": 96.016,
+      "unfilled_pixels": 7872,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "장",
+      "ref_pixels": 237797,
+      "rendered_pixels": 227598,
+      "coverage_pct": 95.6833,
+      "unfilled_pixels": 10265,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "전",
+      "ref_pixels": 220326,
+      "rendered_pixels": 210586,
+      "coverage_pct": 95.5747,
+      "unfilled_pixels": 9750,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "정",
+      "ref_pixels": 242114,
+      "rendered_pixels": 236282,
+      "coverage_pct": 97.5536,
+      "unfilled_pixels": 5923,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "주",
+      "ref_pixels": 190473,
+      "rendered_pixels": 183361,
+      "coverage_pct": 96.2661,
+      "unfilled_pixels": 7112,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "중",
+      "ref_pixels": 259739,
+      "rendered_pixels": 250246,
+      "coverage_pct": 96.3398,
+      "unfilled_pixels": 9507,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "지",
+      "ref_pixels": 189703,
+      "rendered_pixels": 183144,
+      "coverage_pct": 96.533,
+      "unfilled_pixels": 6577,
       "leakage_pixels": 0,
       "pass": true
     },
@@ -812,6 +764,42 @@
       "rendered_pixels": 205864,
       "coverage_pct": 97.6311,
       "unfilled_pixels": 4995,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "하",
+      "ref_pixels": 215553,
+      "rendered_pixels": 208059,
+      "coverage_pct": 96.5234,
+      "unfilled_pixels": 7494,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "한",
+      "ref_pixels": 238850,
+      "rendered_pixels": 238850,
+      "coverage_pct": 100.0,
+      "unfilled_pixels": 0,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "해",
+      "ref_pixels": 261787,
+      "rendered_pixels": 249393,
+      "coverage_pct": 95.2649,
+      "unfilled_pixels": 12396,
+      "leakage_pixels": 0,
+      "pass": true
+    },
+    {
+      "character": "화",
+      "ref_pixels": 246786,
+      "rendered_pixels": 236035,
+      "coverage_pct": 95.6221,
+      "unfilled_pixels": 10804,
       "leakage_pixels": 0,
       "pass": true
     }

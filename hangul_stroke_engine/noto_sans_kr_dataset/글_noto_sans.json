@@ -2,17 +2,14 @@
   "character": "글",
   "unicode": "U+AE00",
   "font": "Noto Sans CJK KR Regular",
-  "decomposition": {
-    "choseong": "ㄱ",
-    "jungseong": "ㅡ",
-    "jongseong": "ㄹ"
-  },
+  "decomposition": "ㄱ + ㅡ + ㄹ",
   "noto_glyph_path": "M50 390V457H870V390H744C764 289 764 211 764 150V92H154V159H682C682 218 681 292 660 390ZM149 881V947H789V881H231V776H766V547H147V613H684V712H149Z",
   "total_strokes": 5,
   "strokes": [
     {
       "order": 1,
       "part": "초성",
+      "color": "#3b82f6",
       "name": "ㄱ (상단 꺾음)",
       "clip_box": {
         "x": 145,
@@ -27,6 +24,7 @@
     {
       "order": 2,
       "part": "중성",
+      "color": "#f59e0b",
       "name": "ㅡ (가운데 긴 가로)",
       "clip_box": {
         "x": 40,
@@ -41,6 +39,7 @@
     {
       "order": 3,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄹ 1획 (상단 꺾음)",
       "clip_box": {
         "x": 140,
@@ -55,6 +54,7 @@
     {
       "order": 4,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄹ 2획 (중간 가로)",
       "clip_box": {
         "x": 140,
@@ -69,6 +69,7 @@
     {
       "order": 5,
       "part": "종성",
+      "color": "#10b981",
       "name": "ㄹ 3획 (하단 ㄴ 꺾음)",
       "clip_box": {
         "x": 140,

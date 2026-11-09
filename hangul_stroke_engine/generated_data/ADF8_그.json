@@ -3,7 +3,7 @@
   "unicode": "U+ADF8",
   "decomp": "ㄱ + ㅡ",
   "archetype": "H1",
-  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
+  "coverage": "99.9831% (미채움 23 px, 침범 0 px)",
   "noto_path": "M50 757V826H867V757ZM139 149V217H676V240C676 352 676 487 640 671L724 680C758 484 758 355 758 240V149Z",
   "total_strokes": 2,
   "strokes": [
@@ -13,37 +13,37 @@
       "color": "#3b82f6",
       "name": "ㄱ (직각 꺾음)",
       "clip_box": {
-        "x": 120,
-        "y": 130,
-        "w": 670,
-        "h": 580
+        "x": 130,
+        "y": 140,
+        "w": 640,
+        "h": 550
       },
-      "d": "M 130 185 L 725 185 C 725 340 725 500 690 670",
-      "width": 120,
+      "d": "M 139 180 L 728 180 C 728 340 728 500 695 680",
+      "width": 110,
       "duration": 0.6
     },
     {
       "order": 2,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅡ (긴 가로선)",
+      "name": "ㅡ (하단 긴 가로)",
       "clip_box": {
         "x": 40,
-        "y": 727,
-        "w": 840,
-        "h": 130
+        "y": 750,
+        "w": 835,
+        "h": 85
       },
-      "d": "M 40 792 L 880 792",
-      "width": 115,
-      "duration": 0.5
+      "d": "M 45 791 L 872 791",
+      "width": 95,
+      "duration": 0.55
     }
   ],
   "qa": {
     "character": "그",
     "ref_pixels": 136451,
-    "rendered_pixels": 136451,
-    "coverage_pct": 100.0,
-    "unfilled_pixels": 0,
+    "rendered_pixels": 136428,
+    "coverage_pct": 99.9831,
+    "unfilled_pixels": 23,
     "leakage_pixels": 0,
     "pass": true
   }
