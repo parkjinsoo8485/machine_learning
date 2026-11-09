@@ -112,18 +112,30 @@ def get_cho_strokes(cho: str, archetype: str, start_order: int) -> List[Dict[str
 
     # --- ㄷ ---
     elif cho == 'ㄷ':
-        strokes.append({
-            'order': ord_num, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄷ 1획 (상단 가로)',
-            'clip_box': {'x': 80 if is_vert else 150, 'y': y_top - 20, 'w': w_right + 10, 'h': 90},
-            'd': f'M 90 {y_top} L {w_right} {y_top}' if is_vert else f'M 150 {y_top} L {w_right} {y_top}',
-            'width': 95, 'duration': 0.4
-        })
-        strokes.append({
-            'order': ord_num + 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄷ 2획 (하단 ㄴ 꺾음)',
-            'clip_box': {'x': 80 if is_vert else 150, 'y': y_top + 30, 'w': w_right + 10, 'h': y_bot - y_top + 30},
-            'd': f'M 140 {y_top + 20} L 140 {y_bot} L {w_right} {y_bot}' if is_vert else f'M 180 {y_top + 20} L 180 {y_bot} L {w_right} {y_bot}',
-            'width': 105, 'duration': 0.6
-        })
+        if archetype == 'V2':
+            strokes.append({
+                'order': ord_num, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄷ 1획 (상단 가로)',
+                'clip_box': {'x': 80, 'y': 90, 'w': 510, 'h': 95},
+                'd': 'M 90 140 L 575 140', 'width': 120, 'duration': 0.4
+            })
+            strokes.append({
+                'order': ord_num + 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄷ 2획 (하단 ㄴ 꺾음)',
+                'clip_box': {'x': 80, 'y': 135, 'w': 510, 'h': 350},
+                'd': 'M 145 135 L 145 440 L 575 440', 'width': 120, 'duration': 0.6
+            })
+        else:
+            strokes.append({
+                'order': ord_num, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄷ 1획 (상단 가로)',
+                'clip_box': {'x': 80 if is_vert else 150, 'y': y_top - 20, 'w': w_right + 10, 'h': 90},
+                'd': f'M 90 {y_top} L {w_right} {y_top}' if is_vert else f'M 150 {y_top} L {w_right} {y_top}',
+                'width': 95, 'duration': 0.4
+            })
+            strokes.append({
+                'order': ord_num + 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄷ 2획 (하단 ㄴ 꺾음)',
+                'clip_box': {'x': 80 if is_vert else 150, 'y': y_top + 30, 'w': w_right + 10, 'h': y_bot - y_top + 30},
+                'd': f'M 140 {y_top + 20} L 140 {y_bot} L {w_right} {y_bot}' if is_vert else f'M 180 {y_top + 20} L 180 {y_bot} L {w_right} {y_bot}',
+                'width': 105, 'duration': 0.6
+            })
 
     # --- ㄸ ---
     elif cho == 'ㄸ':
@@ -469,11 +481,14 @@ def get_jung_strokes(jung: str, archetype: str, start_order: int, cho: str = '')
                 'clip_box': {'x': stem_x - 50, 'y': y_top, 'w': 100, 'h': y_bot - y_top + 15},
                 'd': f'M {stem_x} {y_top} L {stem_x} {y_bot}', 'width': 105, 'duration': 0.65
             })
-            b_y = 385 if (has_jong and cho == 'ㅎ') else (317 if has_jong else 454)
+            if has_jong:
+                b_y = 385 if cho == 'ㅎ' else (260 if cho in ('ㄷ', 'ㄸ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅃ') else 317)
+            else:
+                b_y = 454
             strokes.append({
                 'order': ord_num + 1, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 2획 (우측 가로)',
-                'clip_box': {'x': stem_x + 35, 'y': b_y - 45, 'w': b_w - stem_x + 10, 'h': 90},
-                'd': f'M {stem_x} {b_y} L {b_w} {b_y}', 'width': 95, 'duration': 0.3
+                'clip_box': {'x': stem_x + 35, 'y': b_y - 45, 'w': b_w - stem_x + 10, 'h': 95},
+                'd': f'M {stem_x} {b_y} L {b_w} {b_y}', 'width': 105, 'duration': 0.3
             })
 
         elif jung == 'ㅑ':
@@ -788,8 +803,8 @@ def get_jong_strokes(jong: str, start_order: int, archetype: str = 'H2') -> List
     if jong == 'ㄱ':
         strokes.append({
             'order': ord_num, 'part': '종성', 'color': '#a855f7', 'name': 'ㄱ 받침 (직각 꺾음)',
-            'clip_box': {'x': 130, 'y': 620, 'w': 645, 'h': 350},
-            'd': 'M 130 687 L 725 687 L 725 965', 'width': 115, 'duration': 0.65
+            'clip_box': {'x': 130, 'y': 615, 'w': 645, 'h': 355},
+            'd': 'M 130 675 L 725 675 L 725 965', 'width': 125, 'duration': 0.65
         })
 
     # --- ㄲ ---
