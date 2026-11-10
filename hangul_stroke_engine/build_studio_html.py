@@ -431,6 +431,7 @@ html_content = f'''<!DOCTYPE html>
         const length = path.getTotalLength();
         path.style.strokeDasharray = `${{length}} ${{length}}`;
         path.style.strokeDashoffset = length;
+        path.style.opacity = '0';
 
         // Number Badge
         const p0 = path.getPointAtLength(0);
@@ -513,7 +514,10 @@ html_content = f'''<!DOCTYPE html>
         const path = document.getElementById(`stroke-path-${{idx}}`);
         const badge = document.getElementById(`badge-${{idx}}`);
         const row = document.getElementById(`row-stroke-${{idx}}`);
-        if (path) path.style.strokeDashoffset = path.getTotalLength();
+        if (path) {{
+          path.style.strokeDashoffset = path.getTotalLength();
+          path.style.opacity = '0';
+        }}
         if (badge) badge.style.opacity = '0';
         if (row) row.classList.remove('border-indigo-500', 'bg-indigo-50/10', 'font-bold');
       }});
@@ -528,6 +532,9 @@ html_content = f'''<!DOCTYPE html>
       const path = document.getElementById(`stroke-path-${{idx}}`);
       const badge = document.getElementById(`badge-${{idx}}`);
       const row = document.getElementById(`row-stroke-${{idx}}`);
+
+      // Make stroke visible immediately as it starts drawing
+      if (path) path.style.opacity = '1';
 
       // Highlight active row in sequence list
       document.querySelectorAll('[id^="row-stroke-"]').forEach(r => r.classList.remove('border-indigo-500', 'bg-indigo-50/10', 'font-bold'));
@@ -619,7 +626,10 @@ html_content = f'''<!DOCTYPE html>
         currentStrokeIdx++;
         const path = document.getElementById(`stroke-path-${{currentStrokeIdx}}`);
         const badge = document.getElementById(`badge-${{currentStrokeIdx}}`);
-        if (path) path.style.strokeDashoffset = 0;
+        if (path) {{
+          path.style.opacity = '1';
+          path.style.strokeDashoffset = 0;
+        }}
         if (badge) badge.style.opacity = '1';
         
         document.getElementById('stepBadge').textContent = `획: ${{currentStrokeIdx + 1}} / ${{currentData.total_strokes}}`;
@@ -632,7 +642,10 @@ html_content = f'''<!DOCTYPE html>
       if (currentStrokeIdx >= 0) {{
         const path = document.getElementById(`stroke-path-${{currentStrokeIdx}}`);
         const badge = document.getElementById(`badge-${{currentStrokeIdx}}`);
-        if (path) path.style.strokeDashoffset = path.getTotalLength();
+        if (path) {{
+          path.style.strokeDashoffset = path.getTotalLength();
+          path.style.opacity = '0';
+        }}
         if (badge) badge.style.opacity = '0';
         currentStrokeIdx--;
         document.getElementById('stepBadge').textContent = `획: ${{Math.max(currentStrokeIdx + 1, 0)}} / ${{currentData.total_strokes}}`;
@@ -645,10 +658,16 @@ html_content = f'''<!DOCTYPE html>
         const path = document.getElementById(`stroke-path-${{i}}`);
         const badge = document.getElementById(`badge-${{i}}`);
         if (i <= idx) {{
-          if (path) path.style.strokeDashoffset = 0;
+          if (path) {{
+            path.style.opacity = '1';
+            path.style.strokeDashoffset = 0;
+          }}
           if (badge) badge.style.opacity = '1';
         }} else {{
-          if (path) path.style.strokeDashoffset = path.getTotalLength();
+          if (path) {{
+            path.style.strokeDashoffset = path.getTotalLength();
+            path.style.opacity = '0';
+          }}
           if (badge) badge.style.opacity = '0';
         }}
       }});
