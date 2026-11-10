@@ -3,7 +3,7 @@
   "unicode": "U+ADF8",
   "decomp": "ㄱ + ㅡ",
   "archetype": "H1",
-  "coverage": "99.9831% (미채움 23 px, 침범 0 px)",
+  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
   "noto_path": "M50 757V826H867V757ZM139 149V217H676V240C676 352 676 487 640 671L724 680C758 484 758 355 758 240V149Z",
   "total_strokes": 2,
   "strokes": [
@@ -18,8 +18,8 @@
         "w": 640,
         "h": 550
       },
-      "d": "M 139 180 L 728 180 C 728 340 728 500 695 680",
-      "width": 110,
+      "d": "M 139 180 L 728 180 C 728 340 728 500 680 680",
+      "width": 120,
       "duration": 0.6
     },
     {
@@ -41,9 +41,9 @@
   "qa": {
     "character": "그",
     "ref_pixels": 136451,
-    "rendered_pixels": 136428,
-    "coverage_pct": 99.9831,
-    "unfilled_pixels": 23,
+    "rendered_pixels": 136451,
+    "coverage_pct": 100.0,
+    "unfilled_pixels": 0,
     "leakage_pixels": 0,
     "pass": true
   }

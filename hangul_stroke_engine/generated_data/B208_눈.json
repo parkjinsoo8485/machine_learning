@@ -3,7 +3,7 @@
   "unicode": "U+B208",
   "decomp": "ㄴ + ㅜ + ㄴ",
   "archetype": "H2",
-  "coverage": "99.9989% (미채움 2 px, 침범 0 px)",
+  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
   "noto_path": "M162 87V394H775V327H244V87ZM50 500V567H424V753H506V567H868V500ZM154 674V938H781V870H236V674Z",
   "total_strokes": 4,
   "strokes": [
@@ -18,8 +18,8 @@
         "w": 635,
         "h": 325
       },
-      "d": "M 203 80 L 203 360 L 780 360",
-      "width": 105,
+      "d": "M 203 75 L 203 365 L 780 365",
+      "width": 110,
       "duration": 0.55
     },
     {
@@ -29,9 +29,9 @@
       "name": "ㅜ 1획 (긴 가로)",
       "clip_box": {
         "x": 40,
-        "y": 490,
+        "y": 500,
         "w": 835,
-        "h": 90
+        "h": 67
       },
       "d": "M 45 533 L 875 533",
       "width": 95,
@@ -43,13 +43,13 @@
       "color": "#f59e0b",
       "name": "ㅜ 2획 (세로점)",
       "clip_box": {
-        "x": 415,
-        "y": 555,
-        "w": 100,
-        "h": 210
+        "x": 418,
+        "y": 567,
+        "w": 94,
+        "h": 190
       },
-      "d": "M 465 555 L 465 760",
-      "width": 105,
+      "d": "M 465 567 L 465 753",
+      "width": 95,
       "duration": 0.35
     },
     {
@@ -63,17 +63,17 @@
         "w": 645,
         "h": 285
       },
-      "d": "M 195 665 L 195 904 L 785 904",
-      "width": 105,
+      "d": "M 195 660 L 195 907 L 785 907",
+      "width": 110,
       "duration": 0.6
     }
   ],
   "qa": {
     "character": "눈",
     "ref_pixels": 189517,
-    "rendered_pixels": 189515,
-    "coverage_pct": 99.9989,
-    "unfilled_pixels": 2,
+    "rendered_pixels": 189517,
+    "coverage_pct": 100.0,
+    "unfilled_pixels": 0,
     "leakage_pixels": 0,
     "pass": true
   }

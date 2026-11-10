@@ -3,7 +3,7 @@
   "unicode": "U+AE00",
   "decomp": "ㄱ + ㅡ + ㄹ",
   "archetype": "H2",
-  "coverage": "100.0000% (미채움 0 px, 침범 2 px)",
+  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
   "noto_path": "M50 390V457H870V390H744C764 289 764 211 764 150V92H154V159H682C682 218 681 292 660 390ZM149 881V947H789V881H231V776H766V547H147V613H684V712H149Z",
   "total_strokes": 5,
   "strokes": [
@@ -16,9 +16,9 @@
         "x": 145,
         "y": 85,
         "w": 625,
-        "h": 310
+        "h": 305
       },
-      "d": "M 140 125 L 748 125 L 700 395",
+      "d": "M 140 125 L 748 125 L 700 390",
       "width": 115,
       "duration": 0.6
     },
@@ -29,9 +29,9 @@
       "name": "ㅡ (가운데 긴 가로)",
       "clip_box": {
         "x": 40,
-        "y": 385,
+        "y": 390,
         "w": 835,
-        "h": 78
+        "h": 70
       },
       "d": "M 40 423 L 880 423",
       "width": 95,
@@ -86,10 +86,10 @@
   "qa": {
     "character": "글",
     "ref_pixels": 254206,
-    "rendered_pixels": 254208,
+    "rendered_pixels": 254206,
     "coverage_pct": 100.0,
     "unfilled_pixels": 0,
-    "leakage_pixels": 2,
+    "leakage_pixels": 0,
     "pass": true
   }
 }
