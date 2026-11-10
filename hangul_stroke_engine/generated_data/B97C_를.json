@@ -1,118 +1,123 @@
 {
   "character": "를",
   "unicode": "U+B97C",
-  "decomp": "ㄹ + ㅡ + ㄹ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄹ + ㅡ + ㄹ",
   "archetype": "H2",
-  "coverage": "95.7801% (미채움 12528 px, 침범 0 px)",
-  "noto_path": "M49 473V537H869V473ZM149 886V946H796V886H231V802H767V609H147V669H685V745H149ZM155 346V406H780V346H237V268H764V80H153V139H682V212H155Z",
+  "noto_glyph_path": "M49 473V537H869V473ZM149 886V946H796V886H231V802H767V609H147V669H685V745H149ZM155 346V406H780V346H237V268H764V80H153V139H682V212H155Z",
   "total_strokes": 7,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄹ 1획 (상단 ㄱ)",
       "clip_box": {
-        "x": 115,
-        "y": 60,
-        "w": 750,
-        "h": 210
+        "x": 140,
+        "y": 85,
+        "w": 625,
+        "h": 132
       },
-      "d": "M 140 90 L 755 90 L 752 220",
-      "width": 115
+      "d": "M 150 125 L 750 125 L 740 198",
+      "width": 105,
+      "duration": 0.5,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄹ 2획 (중간 가로)",
       "clip_box": {
-        "x": 115,
-        "y": 190,
-        "w": 750,
-        "h": 110
+        "x": 140,
+        "y": 168,
+        "w": 625,
+        "h": 103
       },
-      "d": "M 140 230 L 805 230",
-      "width": 110
+      "d": "M 150 256 L 755 256",
+      "width": 100,
+      "duration": 0.4,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 3,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄹ 3획 (하단 ㄴ)",
       "clip_box": {
-        "x": 115,
-        "y": 240,
-        "w": 750,
-        "h": 220
+        "x": 140,
+        "y": 251,
+        "w": 625,
+        "h": 134
       },
-      "d": "M 190 240 L 190 410 L 835 410",
-      "width": 120
+      "d": "M 180 251 L 180 360 L 755 360",
+      "width": 110,
+      "duration": 0.6,
+      "order": 3
     },
     {
-      "order": 4,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅡ (긴 가로선)",
+      "name": "ㅡ (가운데 긴 가로)",
       "clip_box": {
-        "x": 25,
-        "y": 445,
-        "w": 870,
-        "h": 130
+        "x": 40,
+        "y": 390,
+        "w": 835,
+        "h": 70
       },
-      "d": "M 40 505 L 880 505",
-      "width": 115
+      "d": "M 40 423 L 880 423",
+      "width": 95,
+      "duration": 0.5,
+      "order": 4
     },
     {
-      "order": 5,
+      "rel_order": 1,
       "part": "종성",
       "color": "#10b981",
-      "name": "ㄹ 받침 1획 (상단 ㄱ)",
+      "name": "ㄹ 1획 (상단 ㄱ 꺾음)",
       "clip_box": {
-        "x": 115,
-        "y": 550,
-        "w": 750,
-        "h": 210
+        "x": 140,
+        "y": 589,
+        "w": 635,
+        "h": 151
       },
-      "d": "M 140 600 L 755 600 L 752 730",
-      "width": 115
+      "d": "M 145 621 L 721 621 L 721 765",
+      "width": 110,
+      "duration": 0.5,
+      "order": 5
     },
     {
-      "order": 6,
+      "rel_order": 2,
       "part": "종성",
       "color": "#10b981",
-      "name": "ㄹ 받침 2획 (중간 가로)",
+      "name": "ㄹ 2획 (중간 가로)",
       "clip_box": {
-        "x": 115,
-        "y": 680,
-        "w": 750,
-        "h": 115
+        "x": 140,
+        "y": 730,
+        "w": 635,
+        "h": 70
       },
-      "d": "M 140 740 L 805 740",
-      "width": 110
+      "d": "M 145 762 L 775 762",
+      "width": 95,
+      "duration": 0.4,
+      "order": 6
     },
     {
-      "order": 7,
+      "rel_order": 3,
       "part": "종성",
       "color": "#10b981",
-      "name": "ㄹ 받침 3획 (하단 ㄴ)",
+      "name": "ㄹ 3획 (하단 ㄴ 꺾음)",
       "clip_box": {
-        "x": 115,
-        "y": 735,
-        "w": 750,
-        "h": 240
+        "x": 140,
+        "y": 785,
+        "w": 655,
+        "h": 175
       },
-      "d": "M 190 750 L 190 925 L 835 925",
-      "width": 120
+      "d": "M 191 785 L 191 915 L 795 915",
+      "width": 110,
+      "duration": 0.65,
+      "order": 7
     }
-  ],
-  "qa": {
-    "character": "를",
-    "ref_pixels": 296881,
-    "rendered_pixels": 284353,
-    "coverage_pct": 95.7801,
-    "unfilled_pixels": 12528,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

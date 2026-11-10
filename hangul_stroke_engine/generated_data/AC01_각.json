@@ -3,7 +3,7 @@
   "unicode": "U+AC01",
   "decomp": "ㄱ + ㅏ + ㄱ",
   "archetype": "V2",
-  "coverage": "96.3471% (미채움 6802 px, 침범 0 px)",
+  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
   "noto_path": "M164 625V693H669V958H752V625ZM669 53V583H752V352H885V282H752V53ZM89 111V178H416C401 330 268 450 48 509L82 574C347 503 505 340 505 111Z",
   "total_strokes": 4,
   "strokes": [
@@ -11,15 +11,15 @@
       "order": 1,
       "part": "초성",
       "color": "#3b82f6",
-      "name": "ㄱ (곡선 꺾음)",
+      "name": "ㄱ (상단 꺾음)",
       "clip_box": {
-        "x": 25,
-        "y": 75,
-        "w": 520,
-        "h": 540
+        "x": 40,
+        "y": 90,
+        "w": 480,
+        "h": 490
       },
-      "d": "M 80 140 L 485 140 C 485 340 340 520 55 580",
-      "width": 150,
+      "d": "M 80 145 L 475 145 C 475 320 340 490 55 560",
+      "width": 120,
       "duration": 0.6
     },
     {
@@ -28,52 +28,52 @@
       "color": "#f59e0b",
       "name": "ㅏ 1획 (세로 기둥)",
       "clip_box": {
-        "x": 675,
-        "y": 30,
-        "w": 150,
-        "h": 725
+        "x": 660,
+        "y": 45,
+        "w": 100,
+        "h": 550
       },
-      "d": "M 750 45 L 750 725",
-      "width": 140,
-      "duration": 0.65
+      "d": "M 710 45 L 710 590",
+      "width": 110,
+      "duration": 0.55
     },
     {
       "order": 3,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅏ 2획 (우측 가로)",
+      "name": "ㅏ 2획 (우측 가로가지)",
       "clip_box": {
-        "x": 755,
-        "y": 300,
-        "w": 195,
-        "h": 125
+        "x": 745,
+        "y": 280,
+        "w": 150,
+        "h": 85
       },
-      "d": "M 750 360 L 895 360",
-      "width": 135,
+      "d": "M 745 317 L 895 317",
+      "width": 100,
       "duration": 0.3
     },
     {
       "order": 4,
       "part": "종성",
-      "color": "#a855f7",
+      "color": "#10b981",
       "name": "ㄱ 받침 (직각 꺾음)",
       "clip_box": {
-        "x": 115,
-        "y": 565,
-        "w": 675,
-        "h": 420
+        "x": 150,
+        "y": 610,
+        "w": 620,
+        "h": 360
       },
-      "d": "M 130 635 L 725 635 L 725 965",
-      "width": 155,
+      "d": "M 155 659 L 715 659 L 715 965",
+      "width": 115,
       "duration": 0.65
     }
   ],
   "qa": {
     "character": "각",
     "ref_pixels": 186207,
-    "rendered_pixels": 179405,
-    "coverage_pct": 96.3471,
-    "unfilled_pixels": 6802,
+    "rendered_pixels": 186207,
+    "coverage_pct": 100.0,
+    "unfilled_pixels": 0,
     "leakage_pixels": 0,
     "pass": true
   }

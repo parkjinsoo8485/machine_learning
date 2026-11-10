@@ -1,0 +1,85 @@
+{
+  "character": "과",
+  "unicode": "U+ACFC",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄱ + ㅘ",
+  "noto_glyph_path": "M91 152V220H465C465 293 463 402 439 553L521 560C547 393 547 274 547 201V152ZM51 760C211 760 422 756 610 726L605 664C513 676 412 682 314 686V411H232V688L41 691ZM660 53V958H743V502H887V431H743V53Z",
+  "total_strokes": 5,
+  "strokes": [
+    {
+      "order": 1,
+      "part": "초성",
+      "color": "#3b82f6",
+      "name": "ㄱ (좌상단 축소 꺾음)",
+      "clip_box": {
+        "x": 80,
+        "y": 140,
+        "w": 480,
+        "h": 430
+      },
+      "d": "M 91 186 L 506 186 L 480 565",
+      "width": 105,
+      "duration": 0.6
+    },
+    {
+      "order": 2,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 1획 (세로점)",
+      "clip_box": {
+        "x": 210,
+        "y": 390,
+        "w": 120,
+        "h": 310
+      },
+      "d": "M 273 390 L 273 695",
+      "width": 100,
+      "duration": 0.35
+    },
+    {
+      "order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅗ 2획 (가로선)",
+      "clip_box": {
+        "x": 30,
+        "y": 650,
+        "w": 590,
+        "h": 120
+      },
+      "d": "M 35 712 L 610 712",
+      "width": 105,
+      "duration": 0.5
+    },
+    {
+      "order": 4,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅏ 1획 (세로기둥)",
+      "clip_box": {
+        "x": 650,
+        "y": 45,
+        "w": 110,
+        "h": 925
+      },
+      "d": "M 701 45 L 701 960",
+      "width": 105,
+      "duration": 0.6
+    },
+    {
+      "order": 5,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅏ 2획 (우측가지)",
+      "clip_box": {
+        "x": 735,
+        "y": 420,
+        "w": 160,
+        "h": 95
+      },
+      "d": "M 701 466 L 890 466",
+      "width": 105,
+      "duration": 0.3
+    }
+  ]
+}

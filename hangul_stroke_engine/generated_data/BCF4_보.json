@@ -1,110 +1,107 @@
 {
   "character": "보",
   "unicode": "U+BCF4",
-  "decomp": "ㅂ + ㅗ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㅂ + ㅗ",
   "archetype": "H1",
-  "coverage": "99.7399% (미채움 550 px, 침범 0 px)",
-  "noto_path": "M229 346H689V512H229ZM146 117V580H417V774H50V843H870V774H499V580H771V117H689V278H229V117Z",
+  "noto_glyph_path": "M229 346H689V512H229ZM146 117V580H417V774H50V843H870V774H499V580H771V117H689V278H229V117Z",
   "total_strokes": 6,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
-      "name": "ㅂ 1획 (좌측 기둥)",
+      "name": "ㅂ 1획 (좌측 세로)",
       "clip_box": {
-        "x": 130,
-        "y": 100,
-        "w": 140,
-        "h": 470
+        "x": 140,
+        "y": 130,
+        "w": 95,
+        "h": 540
       },
-      "d": "M 188 100 L 188 546",
-      "width": 110,
-      "duration": 0.5
+      "d": "M 185 130 L 185 670",
+      "width": 105,
+      "duration": 0.45,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
-      "name": "ㅂ 2획 (우측 기둥)",
+      "name": "ㅂ 2획 (우측 세로)",
       "clip_box": {
-        "x": 670,
-        "y": 100,
-        "w": 140,
-        "h": 470
+        "x": 675,
+        "y": 130,
+        "w": 95,
+        "h": 540
       },
-      "d": "M 730 100 L 730 546",
-      "width": 110,
-      "duration": 0.5
+      "d": "M 725 130 L 725 670",
+      "width": 105,
+      "duration": 0.45,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 3,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㅂ 3획 (중간 가로)",
       "clip_box": {
-        "x": 180,
-        "y": 270,
-        "w": 570,
-        "h": 90
+        "x": 220,
+        "y": 311,
+        "w": 470,
+        "h": 75
       },
-      "d": "M 180 313 L 740 313",
-      "width": 105,
-      "duration": 0.35
+      "d": "M 185 346 L 725 346",
+      "width": 95,
+      "duration": 0.35,
+      "order": 3
     },
     {
-      "order": 4,
+      "rel_order": 4,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㅂ 4획 (하단 가로)",
       "clip_box": {
-        "x": 180,
-        "y": 490,
-        "w": 570,
-        "h": 90
+        "x": 220,
+        "y": 595,
+        "w": 470,
+        "h": 75
       },
-      "d": "M 180 546 L 740 546",
-      "width": 105,
-      "duration": 0.35
+      "d": "M 185 635 L 725 635",
+      "width": 95,
+      "duration": 0.35,
+      "order": 4
     },
     {
-      "order": 5,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
       "name": "ㅗ 1획 (세로점)",
       "clip_box": {
-        "x": 398,
-        "y": 540,
-        "w": 120,
-        "h": 250
+        "x": 420,
+        "y": 439,
+        "w": 80,
+        "h": 323
       },
-      "d": "M 458 540 L 458 775",
-      "width": 105,
-      "duration": 0.35
+      "d": "M 459 439 L 459 762",
+      "width": 95,
+      "duration": 0.35,
+      "order": 5
     },
     {
-      "order": 6,
+      "rel_order": 2,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅗ 2획 (가로선)",
+      "name": "ㅗ 2획 (가운데 긴가로)",
       "clip_box": {
         "x": 40,
-        "y": 740,
-        "w": 840,
-        "h": 110
+        "y": 762,
+        "w": 835,
+        "h": 80
       },
-      "d": "M 40 796 L 880 796",
-      "width": 110,
-      "duration": 0.5
+      "d": "M 40 798 L 875 798",
+      "width": 95,
+      "duration": 0.5,
+      "order": 6
     }
-  ],
-  "qa": {
-    "character": "보",
-    "ref_pixels": 211443,
-    "rendered_pixels": 210893,
-    "coverage_pct": 99.7399,
-    "unfilled_pixels": 550,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

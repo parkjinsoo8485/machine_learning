@@ -1,80 +1,75 @@
 {
   "character": "사",
   "unicode": "U+C0AC",
-  "decomp": "ㅅ + ㅏ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㅅ + ㅏ",
   "archetype": "V1",
-  "coverage": "95.6621% (미채움 7416 px, 침범 0 px)",
-  "noto_path": "M271 131V293C271 459 169 632 37 698L88 765C190 711 273 598 313 465C353 590 434 696 532 747L583 681C455 617 353 453 353 293V131ZM662 53V958H745V490H893V419H745V53Z",
+  "noto_glyph_path": "M271 131V293C271 459 169 632 37 698L88 765C190 711 273 598 313 465C353 590 434 696 532 747L583 681C455 617 353 453 353 293V131ZM662 53V958H745V490H893V419H745V53Z",
   "total_strokes": 4,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㅅ 1획 (좌측 빗침)",
       "clip_box": {
-        "x": 25,
-        "y": 140,
-        "w": 350,
-        "h": 610
+        "x": 35,
+        "y": 135,
+        "w": 305,
+        "h": 550
       },
-      "d": "M 312 145 C 312 360 200 620 40 735",
+      "d": "M 320 160 C 320 355 161 575 55 670",
       "width": 115,
-      "duration": 0.65
+      "duration": 0.55,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㅅ 2획 (우측 빗침)",
       "clip_box": {
         "x": 280,
-        "y": 380,
-        "w": 320,
-        "h": 370
+        "y": 300,
+        "w": 250,
+        "h": 385
       },
-      "d": "M 312 430 L 580 735",
+      "d": "M 300 355 L 520 670",
       "width": 115,
-      "duration": 0.55
+      "duration": 0.5,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
       "name": "ㅏ 1획 (세로 기둥)",
       "clip_box": {
-        "x": 618,
+        "x": 660,
         "y": 45,
-        "w": 170,
-        "h": 930
+        "w": 100,
+        "h": 920
       },
-      "d": "M 703 45 L 703 960",
+      "d": "M 710 45 L 710 965",
       "width": 110,
-      "duration": 0.65
+      "duration": 0.6,
+      "order": 3
     },
     {
-      "order": 4,
+      "rel_order": 2,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅏ 2획 (우측 가로)",
+      "name": "ㅏ 2획 (우측 가로가지)",
       "clip_box": {
-        "x": 713,
-        "y": 399,
-        "w": 222,
-        "h": 110
+        "x": 745,
+        "y": 440,
+        "w": 150,
+        "h": 80
       },
-      "d": "M 703 454 L 895 454",
-      "width": 105,
-      "duration": 0.3
+      "d": "M 745 480 L 895 480",
+      "width": 100,
+      "duration": 0.3,
+      "order": 4
     }
-  ],
-  "qa": {
-    "character": "사",
-    "ref_pixels": 170957,
-    "rendered_pixels": 163543,
-    "coverage_pct": 95.6621,
-    "unfilled_pixels": 7416,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

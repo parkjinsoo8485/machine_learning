@@ -1,95 +1,75 @@
 {
   "character": "자",
   "unicode": "U+C790",
-  "decomp": "ㅈ + ㅏ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㅈ + ㅏ",
   "archetype": "V1",
-  "coverage": "96.0160% (미채움 7872 px, 침범 0 px)",
-  "noto_path": "M67 146V215H273V329C273 483 165 654 35 718L84 784C185 732 274 616 315 485C356 606 440 712 540 762L587 696C457 633 355 473 355 329V215H555V146ZM662 53V958H745V488H893V418H745V53Z",
-  "total_strokes": 5,
+  "noto_glyph_path": "M67 146V215H273V329C273 483 165 654 35 718L84 784C185 732 274 616 315 485C356 606 440 712 540 762L587 696C457 633 355 473 355 329V215H555V146ZM662 53V958H745V488H893V418H745V53Z",
+  "total_strokes": 4,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
-      "name": "ㅈ 1획 (가로선)",
+      "name": "ㅈ 1획 (가로-좌빗침 꺾음)",
       "clip_box": {
-        "x": 70,
-        "y": 125,
-        "w": 530,
-        "h": 95
+        "x": 60,
+        "y": 135,
+        "w": 460,
+        "h": 550
       },
-      "d": "M 90 185 L 575 185",
-      "width": 105,
-      "duration": 0.4
+      "d": "M 75 170 L 505 170 L 300 327 C 300 465 100 602 70 670",
+      "width": 110,
+      "duration": 0.65,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
-      "name": "ㅈ 2획 (수직-곡선 빗침)",
-      "clip_box": {
-        "x": 25,
-        "y": 170,
-        "w": 350,
-        "h": 570
-      },
-      "d": "M 312 185 L 312 320 C 312 520 200 660 50 720",
-      "width": 115,
-      "duration": 0.6
-    },
-    {
-      "order": 3,
-      "part": "초성",
-      "color": "#3b82f6",
-      "name": "ㅈ 3획 (우측 빗침)",
+      "name": "ㅈ 2획 (우측 빗침)",
       "clip_box": {
         "x": 280,
-        "y": 320,
-        "w": 320,
-        "h": 420
+        "y": 272,
+        "w": 245,
+        "h": 412
       },
-      "d": "M 312 430 L 580 720",
-      "width": 115,
-      "duration": 0.55
+      "d": "M 300 327 L 510 670",
+      "width": 110,
+      "duration": 0.5,
+      "order": 2
     },
     {
-      "order": 4,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
       "name": "ㅏ 1획 (세로 기둥)",
       "clip_box": {
-        "x": 618,
+        "x": 660,
         "y": 45,
-        "w": 170,
-        "h": 930
+        "w": 100,
+        "h": 920
       },
-      "d": "M 703 45 L 703 960",
+      "d": "M 710 45 L 710 965",
       "width": 110,
-      "duration": 0.65
+      "duration": 0.6,
+      "order": 3
     },
     {
-      "order": 5,
+      "rel_order": 2,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅏ 2획 (우측 가로)",
+      "name": "ㅏ 2획 (우측 가로가지)",
       "clip_box": {
-        "x": 713,
-        "y": 399,
-        "w": 222,
-        "h": 110
+        "x": 745,
+        "y": 440,
+        "w": 150,
+        "h": 80
       },
-      "d": "M 703 454 L 895 454",
-      "width": 105,
-      "duration": 0.3
+      "d": "M 745 480 L 895 480",
+      "width": 100,
+      "duration": 0.3,
+      "order": 4
     }
-  ],
-  "qa": {
-    "character": "자",
-    "ref_pixels": 197592,
-    "rendered_pixels": 189733,
-    "coverage_pct": 96.016,
-    "unfilled_pixels": 7872,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

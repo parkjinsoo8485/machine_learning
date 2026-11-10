@@ -1,80 +1,75 @@
 {
   "character": "도",
   "unicode": "U+B3C4",
-  "decomp": "ㄷ + ㅗ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄷ + ㅗ",
   "archetype": "H1",
-  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
-  "noto_path": "M154 126V543H417V775H50V844H870V775H499V543H775V476H237V194H766V126Z",
+  "noto_glyph_path": "M154 126V543H417V775H50V844H870V775H499V543H775V476H237V194H766V126Z",
   "total_strokes": 4,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄷ 1획 (상단 가로)",
       "clip_box": {
-        "x": 140,
-        "y": 100,
-        "w": 660,
-        "h": 130
+        "x": 130,
+        "y": 110,
+        "w": 640,
+        "h": 110
       },
-      "d": "M 150 160 L 780 160",
-      "width": 110,
-      "duration": 0.4
+      "d": "M 140 160 L 740 160",
+      "width": 115,
+      "duration": 0.4,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄷ 2획 (하단 ㄴ 꺾음)",
       "clip_box": {
-        "x": 140,
+        "x": 130,
         "y": 150,
-        "w": 660,
-        "h": 400
+        "w": 650,
+        "h": 490
       },
-      "d": "M 195 150 L 195 510 L 780 510",
-      "width": 115,
-      "duration": 0.6
+      "d": "M 190 150 L 190 600 L 750 600",
+      "width": 120,
+      "duration": 0.65,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
       "name": "ㅗ 1획 (세로점)",
       "clip_box": {
-        "x": 398,
-        "y": 540,
-        "w": 120,
-        "h": 250
+        "x": 420,
+        "y": 439,
+        "w": 80,
+        "h": 323
       },
-      "d": "M 458 540 L 458 775",
-      "width": 105,
-      "duration": 0.35
+      "d": "M 459 439 L 459 762",
+      "width": 95,
+      "duration": 0.35,
+      "order": 3
     },
     {
-      "order": 4,
+      "rel_order": 2,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅗ 2획 (가로선)",
+      "name": "ㅗ 2획 (가운데 긴가로)",
       "clip_box": {
         "x": 40,
-        "y": 740,
-        "w": 840,
-        "h": 110
+        "y": 762,
+        "w": 835,
+        "h": 80
       },
-      "d": "M 40 796 L 880 796",
-      "width": 110,
-      "duration": 0.5
+      "d": "M 40 798 L 875 798",
+      "width": 95,
+      "duration": 0.5,
+      "order": 4
     }
-  ],
-  "qa": {
-    "character": "도",
-    "ref_pixels": 182233,
-    "rendered_pixels": 182233,
-    "coverage_pct": 100.0,
-    "unfilled_pixels": 0,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

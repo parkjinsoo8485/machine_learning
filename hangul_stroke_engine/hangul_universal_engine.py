@@ -1,8 +1,9 @@
 """
-Hangul Universal Stroke Engine (Noto Sans CJK KR)
-=================================================
+Hangul Universal Stroke Engine (Noto Sans CJK KR) - Master Jamo Modular Edition
+================================================================================
 Automated stroke-order extraction, decomposition, and mathematical verification
-for all Korean Hangul syllables (KS X 1001 2,350 and Unicode 11,172).
+for all Korean Hangul syllables (KS X 1001 2,350 and Unicode 11,172)
+powered by the 258 Canonical Master Jamo Modular Library.
 """
 
 import os
@@ -15,23 +16,37 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.pens.transformPen import TransformPen
 
-import jamo_rules
-
 FONT_PATH = '/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
+MASTER_DB_PATH = '/home/antigravity/parkjinsoo8485/machine_learning/hangul_stroke_engine/master_jamo_library.json'
+CALIBRATED_DB_PATH = '/home/antigravity/parkjinsoo8485/machine_learning/hangul_stroke_engine/calibrated_strokes_db.json'
 
-CHO_LIST = jamo_rules.CHO_LIST
-JUNG_LIST = jamo_rules.JUNG_LIST
-JONG_LIST = jamo_rules.JONG_LIST
+CHO_LIST = ['ㄱ','ㄲ','ㄴ','ㄷ','ㄸ','ㄹ','ㅁ','ㅂ','ㅃ','ㅅ','ㅆ','ㅇ','ㅈ','ㅉ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
+JUNG_LIST = ['ㅏ','ㅐ','ㅑ','ㅒ','ㅓ','ㅔ','ㅕ','ㅖ','ㅗ','ㅘ','ㅙ','ㅚ','ㅛ','ㅜ','ㅝ','ㅞ','ㅟ','ㅠ','ㅡ','ㅢ','ㅣ']
+JONG_LIST = ['','ㄱ','ㄲ','ㄳ','ㄴ','ㄵ','ㄶ','ㄷ','ㄹ','ㄺ','ㄻ','ㄼ','ㄽ','ㄾ','ㄿ','ㅀ','ㅁ','ㅂ','ㅄ','ㅅ','ㅆ','ㅇ','ㅈ','ㅊ','ㅋ','ㅌ','ㅍ','ㅎ']
 
 VERTICAL_VOWELS = set(['ㅏ','ㅐ','ㅑ','ㅒ','ㅓ','ㅔ','ㅕ','ㅖ','ㅣ'])
 HORIZONTAL_VOWELS = set(['ㅗ','ㅛ','ㅜ','ㅠ','ㅡ'])
 COMPOUND_VOWELS = set(['ㅘ','ㅙ','ㅚ','ㅝ','ㅞ','ㅟ','ㅢ'])
 
 class HangulUniversalEngine:
-    def __init__(self, font_path: str = FONT_PATH):
+    def __init__(self, font_path: str = FONT_PATH, master_db_path: str = MASTER_DB_PATH):
         self.font = TTFont(font_path, fontNumber=2)
         self.glyph_set = self.font.getGlyphSet()
         self.cmap = self.font.getBestCmap()
+
+        # Load Master Jamo Modular Library
+        if os.path.exists(master_db_path):
+            with open(master_db_path, 'r', encoding='utf-8') as f:
+                self.master_lib = json.load(f)
+        else:
+            self.master_lib = None
+
+        # Load Calibrated Syllables DB (Anchor Truths)
+        if os.path.exists(CALIBRATED_DB_PATH):
+            with open(CALIBRATED_DB_PATH, 'r', encoding='utf-8') as f:
+                self.calibrated_db = json.load(f)
+        else:
+            self.calibrated_db = {}
 
     def decompose(self, syllable: str) -> Dict[str, Any]:
         """Decomposes any Hangul syllable into Cho, Jung, Jong and identifies layout archetype."""
@@ -54,7 +69,7 @@ class HangulUniversalEngine:
         elif jung in HORIZONTAL_VOWELS:
             arch = 'H2' if has_jong else 'H1'
         else:
-            arch = 'C2' if has_jong else 'C1'
+            arch = 'M2' if has_jong else 'M1'
             
         return {
             'character': syllable,
@@ -75,26 +90,58 @@ class HangulUniversalEngine:
         return svg_pen.getCommands()
 
     def generate_strokes(self, syllable: str) -> List[Dict[str, Any]]:
-        """Generates full stroke list with clipping masks and trajectories for any Hangul syllable."""
+        """Generates full stroke list with clipping masks and trajectories from Master Jamo Library."""
+        # 1. Fast-path: check if character has a verified handcrafted anchor calibration
+        if syllable in self.calibrated_db:
+            val = self.calibrated_db[syllable]
+            strokes = val['strokes'] if isinstance(val, dict) and 'strokes' in val else val
+            return copy_strokes(strokes)
+
         info = self.decompose(syllable)
         cho, jung, jong, arch = info['cho'], info['jung'], info['jong'], info['archetype']
         strokes = []
         curr_order = 1
 
-        # 1. Cho strokes
-        s_cho = jamo_rules.get_cho_strokes(cho, arch, curr_order)
-        strokes.extend(s_cho)
-        curr_order += len(s_cho)
+        if not self.master_lib:
+            raise RuntimeError("Master Jamo Library is not loaded.")
 
-        # 2. Jung strokes
-        s_jung = jamo_rules.get_jung_strokes(jung, arch, curr_order, cho=cho)
-        strokes.extend(s_jung)
-        curr_order += len(s_jung)
+        # 1. Cho Component (1 of 114)
+        cho_entry = self.master_lib['cho_modules'].get(cho, {}).get(arch)
+        if cho_entry:
+            for s in cho_entry['strokes']:
+                st = dict(s)
+                st['order'] = curr_order
+                strokes.append(st)
+                curr_order += 1
 
-        # 3. Jong strokes
+        # 2. Jung Component (1 of 63)
+        # Select beol based on syllable layout:
+        # beol_1: V1, H1, M1 (무받침)
+        # beol_2: V2, H2, M2 (단순받침)
+        # beol_3: complex / double adjustments
+        if not info['has_jong']:
+            beol_key = 'beol_1'
+        else:
+            beol_key = 'beol_2'
+
+        jung_entry = self.master_lib['jung_modules'].get(jung, {}).get(beol_key)
+        if jung_entry:
+            for s in jung_entry['strokes']:
+                st = dict(s)
+                st['order'] = curr_order
+                strokes.append(st)
+                curr_order += 1
+
+        # 3. Jong Component (1 of 81)
         if info['has_jong']:
-            s_jong = jamo_rules.get_jong_strokes(jong, curr_order, archetype=arch)
-            strokes.extend(s_jong)
+            jong_layout = 'V2' if arch in ('V1', 'V2') else ('H2' if arch in ('H1', 'H2') else 'M2')
+            jong_entry = self.master_lib['jong_modules'].get(jong, {}).get(jong_layout)
+            if jong_entry:
+                for s in jong_entry['strokes']:
+                    st = dict(s)
+                    st['order'] = curr_order
+                    strokes.append(st)
+                    curr_order += 1
 
         return strokes
 
@@ -174,11 +221,15 @@ class HangulUniversalEngine:
 
         return res
 
+def copy_strokes(strokes: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    import copy
+    return copy.deepcopy(strokes)
+
 if __name__ == '__main__':
     engine = HangulUniversalEngine()
-    print("Testing Universal Engine on benchmark syllables...")
-    samples = ['가', '각', '고', '곡', '과', '광', '별', '한', '글', '꽃', '꿈']
+    print("Testing Universal Engine with Master Jamo Library across all 6 archetypes...")
+    samples = ['가', '각', '고', '곡', '과', '광', '별', '한', '글', '꽃', '꿈', '물', '봄', '귀', '황', '권', '꿩']
     for s in samples:
         data = engine.process_syllable(s, verify=True)
         v = data['verification']
-        print(f"[{s}] {data['decomposition']:13s} | Archetype: {data['archetype']:2s} | Strokes: {data['total_strokes']:2d} | Coverage: {v['coverage_pct']:7.4f}% (Unfilled: {v['unfilled_pixels']:5d} px, Leakage: {v['leakage_pixels']:2d} px)")
+        print(f"[{s}] {data['decomposition']:13s} | Layout: {data['archetype']:2s} | Strokes: {data['total_strokes']:2d} | Coverage: {v['coverage_pct']:7.4f}% (Unfilled: {v['unfilled_pixels']:5d} px, Leakage: {v['leakage_pixels']:2d} px)")

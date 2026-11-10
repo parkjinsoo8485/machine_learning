@@ -1,80 +1,75 @@
 {
   "character": "개",
   "unicode": "U+AC1C",
-  "decomp": "ㄱ + ㅐ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄱ + ㅐ",
   "archetype": "V1",
-  "coverage": "99.6792% (미채움 697 px, 침범 0 px)",
-  "noto_path": "M536 77V913H614V485H736V958H816V53H736V417H614V77ZM85 170V238H355C342 425 258 589 50 705L98 764C356 618 436 402 436 170Z",
+  "noto_glyph_path": "M536 77V913H614V485H736V958H816V53H736V417H614V77ZM85 170V238H355C342 425 258 589 50 705L98 764C356 618 436 402 436 170Z",
   "total_strokes": 4,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄱ (곡선 꺾음)",
       "clip_box": {
-        "x": 40,
+        "x": 50,
         "y": 140,
-        "w": 420,
+        "w": 470,
         "h": 650
       },
-      "d": "M 80 185 L 430 185 C 410 380 320 620 55 755",
-      "width": 110,
-      "duration": 0.65
-    },
-    {
-      "order": 2,
-      "part": "중성",
-      "color": "#f59e0b",
-      "name": "ㅐ 1획 (첫째 기둥)",
-      "clip_box": {
-        "x": 520,
-        "y": 45,
-        "w": 120,
-        "h": 930
-      },
-      "d": "M 585 45 L 585 960",
+      "d": "M 90 185 L 485 185 C 470 400 360 620 55 755",
       "width": 105,
-      "duration": 0.55
+      "duration": 0.65,
+      "order": 1
     },
     {
-      "order": 3,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅐ 2획 (연결 가로)",
+      "name": "ㅐ 1획 (첫째 세로기둥)",
       "clip_box": {
-        "x": 565,
-        "y": 409,
-        "w": 190,
-        "h": 90
+        "x": 560,
+        "y": 45,
+        "w": 90,
+        "h": 915
       },
-      "d": "M 585 454 L 775 454",
+      "d": "M 610 45 L 610 960",
       "width": 100,
-      "duration": 0.3
+      "duration": 0.55,
+      "order": 2
     },
     {
-      "order": 4,
+      "rel_order": 2,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅐ 3획 (둘째 기둥)",
+      "name": "ㅐ 2획 (가운데 가로가지)",
       "clip_box": {
-        "x": 720,
-        "y": 45,
-        "w": 120,
-        "h": 930
+        "x": 620,
+        "y": 445,
+        "w": 155,
+        "h": 70
       },
-      "d": "M 775 45 L 775 960",
+      "d": "M 610 480 L 785 480",
+      "width": 95,
+      "duration": 0.3,
+      "order": 3
+    },
+    {
+      "rel_order": 3,
+      "part": "중성",
+      "color": "#f59e0b",
+      "name": "ㅐ 3획 (둘째 세로기둥)",
+      "clip_box": {
+        "x": 745,
+        "y": 45,
+        "w": 100,
+        "h": 915
+      },
+      "d": "M 785 45 L 785 960",
       "width": 105,
-      "duration": 0.55
+      "duration": 0.55,
+      "order": 4
     }
-  ],
-  "qa": {
-    "character": "개",
-    "ref_pixels": 217285,
-    "rendered_pixels": 216588,
-    "coverage_pct": 99.6792,
-    "unfilled_pixels": 697,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

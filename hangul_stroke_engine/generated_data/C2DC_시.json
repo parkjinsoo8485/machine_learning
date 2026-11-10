@@ -1,65 +1,59 @@
 {
   "character": "시",
   "unicode": "U+C2DC",
-  "decomp": "ㅅ + ㅣ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㅅ + ㅣ",
   "archetype": "V1",
-  "coverage": "95.9058% (미채움 6677 px, 침범 0 px)",
-  "noto_path": "M707 53V959H790V53ZM288 131V293C288 465 180 638 45 701L96 770C202 717 289 603 331 467C373 596 460 702 562 752L612 686C479 625 371 458 371 293V131Z",
+  "noto_glyph_path": "M707 53V959H790V53ZM288 131V293C288 465 180 638 45 701L96 770C202 717 289 603 331 467C373 596 460 702 562 752L612 686C479 625 371 458 371 293V131Z",
   "total_strokes": 3,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㅅ 1획 (좌측 빗침)",
       "clip_box": {
-        "x": 10,
-        "y": 125,
-        "w": 380,
-        "h": 640
+        "x": 35,
+        "y": 135,
+        "w": 305,
+        "h": 550
       },
-      "d": "M 312 145 C 312 360 200 620 40 735",
-      "width": 135,
-      "duration": 0.65
+      "d": "M 320 160 C 320 355 161 575 55 670",
+      "width": 115,
+      "duration": 0.55,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㅅ 2획 (우측 빗침)",
       "clip_box": {
-        "x": 265,
-        "y": 365,
-        "w": 350,
-        "h": 400
+        "x": 280,
+        "y": 300,
+        "w": 250,
+        "h": 385
       },
-      "d": "M 312 430 L 580 735",
-      "width": 135,
-      "duration": 0.55
+      "d": "M 300 355 L 520 670",
+      "width": 115,
+      "duration": 0.5,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
       "name": "ㅣ (세로 기둥)",
       "clip_box": {
-        "x": 668.5,
-        "y": 30,
-        "w": 160,
-        "h": 960
+        "x": 660,
+        "y": 45,
+        "w": 110,
+        "h": 920
       },
-      "d": "M 748.5 45 L 748.5 960",
-      "width": 135,
-      "duration": 0.65
+      "d": "M 710 45 L 710 965",
+      "width": 110,
+      "duration": 0.6,
+      "order": 3
     }
-  ],
-  "qa": {
-    "character": "시",
-    "ref_pixels": 163083,
-    "rendered_pixels": 156422,
-    "coverage_pct": 95.9058,
-    "unfilled_pixels": 6677,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

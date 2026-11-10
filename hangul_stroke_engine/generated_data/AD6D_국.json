@@ -1,76 +1,75 @@
 {
   "character": "국",
   "unicode": "U+AD6D",
-  "decomp": "ㄱ + ㅜ + ㄱ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄱ + ㅜ + ㄱ",
   "archetype": "H2",
-  "coverage": "100.0000% (미채움 0 px, 침범 0 px)",
-  "noto_path": "M135 652V719H686V958H769V652H500V487H870V419H741C764 312 764 230 764 162V96H154V164H682C682 232 682 311 658 419H50V487H417V652Z",
+  "noto_glyph_path": "M135 652V719H686V958H769V652H500V487H870V419H741C764 312 764 230 764 162V96H154V164H682C682 232 682 311 658 419H50V487H417V652Z",
   "total_strokes": 4,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
-      "name": "ㄱ (직각 꺾음)",
+      "name": "ㄱ (초박형 직각 꺾음)",
       "clip_box": {
-        "x": 110,
-        "y": 60,
-        "w": 680,
-        "h": 360
+        "x": 135,
+        "y": 80,
+        "w": 640,
+        "h": 350
       },
       "d": "M 140 135 L 735 135 C 735 240 735 340 695 440",
-      "width": 115
+      "width": 115,
+      "duration": 0.6,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅜ 1획 (가로선)",
+      "name": "ㅜ 1획 (가운데 긴가로)",
       "clip_box": {
-        "x": 30,
-        "y": 380,
-        "w": 860,
-        "h": 130
+        "x": 40,
+        "y": 430,
+        "w": 835,
+        "h": 75
       },
-      "d": "M 46 445 L 875 445",
-      "width": 115
+      "d": "M 40 467 L 875 467",
+      "width": 95,
+      "duration": 0.5,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 2,
       "part": "중성",
       "color": "#f59e0b",
       "name": "ㅜ 2획 (세로점)",
       "clip_box": {
-        "x": 390,
-        "y": 440,
-        "w": 140,
-        "h": 220
+        "x": 410,
+        "y": 501,
+        "w": 95,
+        "h": 88
       },
-      "d": "M 457 445 L 457 650",
-      "width": 110
+      "d": "M 457 501 L 457 589",
+      "width": 105,
+      "duration": 0.3,
+      "order": 3
     },
     {
-      "order": 4,
+      "rel_order": 1,
       "part": "종성",
       "color": "#10b981",
       "name": "ㄱ 받침 (직각 꺾음)",
       "clip_box": {
-        "x": 110,
-        "y": 580,
-        "w": 680,
-        "h": 380
+        "x": 130,
+        "y": 640,
+        "w": 645,
+        "h": 330
       },
-      "d": "M 130 670 L 725 670 L 725 965",
-      "width": 115
+      "d": "M 135 687 L 725 687 L 725 965",
+      "width": 115,
+      "duration": 0.65,
+      "order": 4
     }
-  ],
-  "qa": {
-    "character": "국",
-    "ref_pixels": 194231,
-    "rendered_pixels": 194242,
-    "coverage_pct": 100.0,
-    "unfilled_pixels": 0,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

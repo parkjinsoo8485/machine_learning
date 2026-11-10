@@ -1,110 +1,107 @@
 {
   "character": "들",
   "unicode": "U+B4E4",
-  "decomp": "ㄷ + ㅡ + ㄹ",
+  "font": "Noto Sans CJK KR Regular",
+  "decomposition": "ㄷ + ㅡ + ㄹ",
   "archetype": "H2",
-  "coverage": "95.0073% (미채움 14070 px, 침범 0 px)",
-  "noto_path": "M50 431V498H868V431ZM159 83V358H770V291H241V150H761V83ZM151 881V947H789V881H232V789H762V577H149V642H681V727H151Z",
+  "noto_glyph_path": "M50 431V498H868V431ZM159 83V358H770V291H241V150H761V83ZM151 881V947H789V881H232V789H762V577H149V642H681V727H151Z",
   "total_strokes": 6,
   "strokes": [
     {
-      "order": 1,
+      "rel_order": 1,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄷ 1획 (상단 가로)",
       "clip_box": {
-        "x": 125,
-        "y": 65,
-        "w": 690,
-        "h": 135
+        "x": 140,
+        "y": 75,
+        "w": 620,
+        "h": 105
       },
-      "d": "M 150 140 L 780 140",
-      "width": 120,
-      "duration": 0.4
+      "d": "M 145 120 L 735 120",
+      "width": 110,
+      "duration": 0.35,
+      "order": 1
     },
     {
-      "order": 2,
+      "rel_order": 2,
       "part": "초성",
       "color": "#3b82f6",
       "name": "ㄷ 2획 (하단 ㄴ 꺾음)",
       "clip_box": {
-        "x": 125,
-        "y": 120,
-        "w": 690,
-        "h": 320
+        "x": 140,
+        "y": 110,
+        "w": 630,
+        "h": 290
       },
-      "d": "M 195 135 L 195 380 L 780 380",
-      "width": 125,
-      "duration": 0.6
+      "d": "M 195 110 L 195 370 L 745 370",
+      "width": 115,
+      "duration": 0.55,
+      "order": 2
     },
     {
-      "order": 3,
+      "rel_order": 1,
       "part": "중성",
       "color": "#f59e0b",
-      "name": "ㅡ (긴 가로선)",
+      "name": "ㅡ (가운데 긴 가로)",
       "clip_box": {
-        "x": 25,
-        "y": 385,
-        "w": 870,
-        "h": 160
+        "x": 40,
+        "y": 390,
+        "w": 835,
+        "h": 70
       },
-      "d": "M 40 465 L 880 465",
-      "width": 125,
-      "duration": 0.5
+      "d": "M 40 423 L 880 423",
+      "width": 95,
+      "duration": 0.5,
+      "order": 3
     },
     {
-      "order": 4,
+      "rel_order": 1,
       "part": "종성",
-      "color": "#a855f7",
-      "name": "ㄹ 받침 1획 (상단 ㄱ)",
+      "color": "#10b981",
+      "name": "ㄹ 1획 (상단 ㄱ 꺾음)",
       "clip_box": {
-        "x": 115,
-        "y": 547,
-        "w": 750,
-        "h": 220
+        "x": 140,
+        "y": 589,
+        "w": 635,
+        "h": 151
       },
-      "d": "M 140 610 L 755 610 L 752 740",
-      "width": 125,
-      "duration": 0.5
+      "d": "M 145 621 L 721 621 L 721 765",
+      "width": 110,
+      "duration": 0.5,
+      "order": 4
     },
     {
-      "order": 5,
+      "rel_order": 2,
       "part": "종성",
-      "color": "#a855f7",
-      "name": "ㄹ 받침 2획 (중간 가로)",
+      "color": "#10b981",
+      "name": "ㄹ 2획 (중간 가로)",
       "clip_box": {
-        "x": 115,
-        "y": 692,
-        "w": 750,
-        "h": 115
+        "x": 140,
+        "y": 730,
+        "w": 635,
+        "h": 70
       },
-      "d": "M 140 755 L 805 755",
-      "width": 120,
-      "duration": 0.4
+      "d": "M 145 762 L 775 762",
+      "width": 95,
+      "duration": 0.4,
+      "order": 5
     },
     {
-      "order": 6,
+      "rel_order": 3,
       "part": "종성",
-      "color": "#a855f7",
-      "name": "ㄹ 받침 3획 (하단 ㄴ)",
+      "color": "#10b981",
+      "name": "ㄹ 3획 (하단 ㄴ 꺾음)",
       "clip_box": {
-        "x": 115,
-        "y": 747,
-        "w": 750,
-        "h": 240
+        "x": 140,
+        "y": 785,
+        "w": 655,
+        "h": 175
       },
-      "d": "M 190 762 L 190 920 L 835 920",
-      "width": 125,
-      "duration": 0.55
+      "d": "M 191 785 L 191 915 L 795 915",
+      "width": 110,
+      "duration": 0.65,
+      "order": 6
     }
-  ],
-  "qa": {
-    "character": "들",
-    "ref_pixels": 281811,
-    "rendered_pixels": 267741,
-    "coverage_pct": 95.0073,
-    "unfilled_pixels": 14070,
-    "leakage_pixels": 0,
-    "pass": true
-  }
+  ]
 }

@@ -182,6 +182,77 @@ VERIFIED_DATASETS = {
             {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (직각 꺾음)', 'clip_box': {'x': 130, 'y': 140, 'w': 640, 'h': 550}, 'd': 'M 139 180 L 728 180 C 728 340 728 500 680 680', 'width': 120, 'duration': 0.6},
             {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅡ (하단 긴 가로)', 'clip_box': {'x': 40, 'y': 750, 'w': 835, 'h': 85}, 'd': 'M 45 791 L 872 791', 'width': 95, 'duration': 0.55}
         ]
+    },
+    '각': {
+        'unicode': 'U+AC01', 'decomp': 'ㄱ + ㅏ + ㄱ', 'archetype': 'V2',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (상단 꺾음)', 'clip_box': {'x': 40, 'y': 90, 'w': 480, 'h': 490}, 'd': 'M 80 145 L 475 145 C 475 320 340 490 55 560', 'width': 120, 'duration': 0.6},
+            {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 1획 (세로 기둥)', 'clip_box': {'x': 660, 'y': 45, 'w': 100, 'h': 550}, 'd': 'M 710 45 L 710 590', 'width': 110, 'duration': 0.55},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 2획 (우측 가로가지)', 'clip_box': {'x': 745, 'y': 280, 'w': 150, 'h': 85}, 'd': 'M 745 317 L 895 317', 'width': 100, 'duration': 0.3},
+            {'order': 4, 'part': '종성', 'color': '#10b981', 'name': 'ㄱ 받침 (직각 꺾음)', 'clip_box': {'x': 150, 'y': 610, 'w': 620, 'h': 360}, 'd': 'M 155 659 L 715 659 L 715 965', 'width': 115, 'duration': 0.65}
+        ]
+    },
+    '곡': {
+        'unicode': 'U+ACE1', 'decomp': 'ㄱ + ㅗ + ㄱ', 'archetype': 'H2',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (직각 꺾음)', 'clip_box': {'x': 135, 'y': 80, 'w': 640, 'h': 350}, 'd': 'M 140 135 L 735 135 C 735 240 735 340 695 440', 'width': 115, 'duration': 0.6},
+            {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅗ 1획 (세로점)', 'clip_box': {'x': 370, 'y': 290, 'w': 110, 'h': 200}, 'd': 'M 427 290 L 427 490', 'width': 95, 'duration': 0.3},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅗ 2획 (가운데 긴가로)', 'clip_box': {'x': 40, 'y': 470, 'w': 835, 'h': 90}, 'd': 'M 40 517 L 875 517', 'width': 95, 'duration': 0.5},
+            {'order': 4, 'part': '종성', 'color': '#10b981', 'name': 'ㄱ 받침 (직각 꺾음)', 'clip_box': {'x': 130, 'y': 640, 'w': 645, 'h': 330}, 'd': 'M 135 687 L 725 687 L 725 965', 'width': 115, 'duration': 0.65}
+        ]
+    },
+    '과': {
+        'unicode': 'U+ACFC', 'decomp': 'ㄱ + ㅘ', 'archetype': 'M1',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (좌상단 축소 꺾음)', 'clip_box': {'x': 80, 'y': 140, 'w': 480, 'h': 430}, 'd': 'M 91 186 L 506 186 L 480 565', 'width': 105, 'duration': 0.6},
+            {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅗ 1획 (세로점)', 'clip_box': {'x': 210, 'y': 390, 'w': 120, 'h': 310}, 'd': 'M 273 390 L 273 695', 'width': 100, 'duration': 0.35},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅗ 2획 (가로선)', 'clip_box': {'x': 30, 'y': 650, 'w': 590, 'h': 120}, 'd': 'M 35 712 L 610 712', 'width': 105, 'duration': 0.5},
+            {'order': 4, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 1획 (세로기둥)', 'clip_box': {'x': 650, 'y': 45, 'w': 110, 'h': 925}, 'd': 'M 701 45 L 701 960', 'width': 105, 'duration': 0.6},
+            {'order': 5, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 2획 (우측가지)', 'clip_box': {'x': 735, 'y': 420, 'w': 160, 'h': 95}, 'd': 'M 701 466 L 890 466', 'width': 105, 'duration': 0.3}
+        ]
+    },
+    '광': {
+        'unicode': 'U+AD11', 'decomp': 'ㄱ + ㅘ + ㅇ', 'archetype': 'M2',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (좌상단 최소 꺾음)', 'clip_box': {'x': 80, 'y': 95, 'w': 480, 'h': 325}, 'd': 'M 99 144 L 506 144 L 482 405', 'width': 110, 'duration': 0.55},
+            {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅗ 1획 (세로점)', 'clip_box': {'x': 210, 'y': 290, 'w': 120, 'h': 210}, 'd': 'M 276 290 L 276 495', 'width': 105, 'duration': 0.3},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅗ 2획 (가로선)', 'clip_box': {'x': 30, 'y': 440, 'w': 590, 'h': 130}, 'd': 'M 40 508 L 615 508', 'width': 105, 'duration': 0.45},
+            {'order': 4, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 1획 (세로기둥)', 'clip_box': {'x': 660, 'y': 45, 'w': 105, 'h': 585}, 'd': 'M 712 45 L 712 625', 'width': 110, 'duration': 0.55},
+            {'order': 5, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅏ 2획 (우측가지)', 'clip_box': {'x': 740, 'y': 285, 'w': 155, 'h': 95}, 'd': 'M 712 334 L 890 334', 'width': 105, 'duration': 0.3},
+            {'order': 6, 'part': '종성', 'color': '#10b981', 'name': 'ㅇ 받침 (원형 폐곡선)', 'clip_box': {'x': 150, 'y': 620, 'w': 625, 'h': 345}, 'd': 'M 462 661 A 235 130 0 1 0 462 921 A 235 130 0 1 0 462 661', 'width': 125, 'duration': 0.8}
+        ]
+    },
+    '귀': {
+        'unicode': 'U+ADC0', 'decomp': 'ㄱ + ㅟ', 'archetype': 'M1',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (좌상단 축소 꺾음)', 'clip_box': {'x': 100, 'y': 100, 'w': 460, 'h': 370}, 'd': 'M 120 157 L 507 157 L 485 470', 'width': 105, 'duration': 0.6},
+            {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅜ 1획 (가로선)', 'clip_box': {'x': 35, 'y': 445, 'w': 635, 'h': 115}, 'd': 'M 40 506 L 660 506', 'width': 100, 'duration': 0.45},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅜ 2획 (세로점)', 'clip_box': {'x': 280, 'y': 530, 'w': 110, 'h': 390}, 'd': 'M 337 530 L 337 915', 'width': 100, 'duration': 0.35},
+            {'order': 4, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅣ (우측 세로기둥)', 'clip_box': {'x': 700, 'y': 45, 'w': 110, 'h': 925}, 'd': 'M 756 45 L 756 965', 'width': 105, 'duration': 0.6}
+        ]
+    },
+    '권': {
+        'unicode': 'U+AD8C', 'decomp': 'ㄱ + ㅝ + ㄴ', 'archetype': 'M2',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': 'ㄱ (좌상단 최소 꺾음)', 'clip_box': {'x': 100, 'y': 90, 'w': 460, 'h': 305}, 'd': 'M 125 141 L 507 141 L 485 395', 'width': 105, 'duration': 0.55},
+            {'order': 2, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅜ 1획 (가로선)', 'clip_box': {'x': 35, 'y': 375, 'w': 610, 'h': 110}, 'd': 'M 40 430 L 635 430', 'width': 100, 'duration': 0.45},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅜ 2획 (세로점)', 'clip_box': {'x': 280, 'y': 440, 'w': 110, 'h': 240}, 'd': 'M 340 440 L 340 678', 'width': 100, 'duration': 0.3},
+            {'order': 4, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅓ 1획 (가로가지)', 'clip_box': {'x': 500, 'y': 540, 'w': 220, 'h': 75}, 'd': 'M 514 578 L 720 578', 'width': 95, 'duration': 0.28},
+            {'order': 5, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅓ 2획 (세로기둥)', 'clip_box': {'x': 700, 'y': 45, 'w': 105, 'h': 695}, 'd': 'M 752 45 L 752 737', 'width': 105, 'duration': 0.55},
+            {'order': 6, 'part': '종성', 'color': '#10b981', 'name': 'ㄴ 받침 (ㄴ 꺾음)', 'clip_box': {'x': 160, 'y': 650, 'w': 665, 'h': 295}, 'd': 'M 218 650 L 218 904 L 816 904', 'width': 110, 'duration': 0.65}
+        ]
+    },
+    '꿩': {
+        'unicode': 'U+AF89', 'decomp': 'ㄲ + ㅝ + ㅇ', 'archetype': 'M2',
+        'strokes': [
+            {'order': 1, 'part': '초성', 'color': '#3b82f6', 'name': '첫째 ㄱ (좌상단)', 'clip_box': {'x': 80, 'y': 90, 'w': 245, 'h': 295}, 'd': 'M 101 137 L 319 137 C 319 220 280 320 209 380', 'width': 105, 'duration': 0.45},
+            {'order': 2, 'part': '초성', 'color': '#3b82f6', 'name': '둘째 ㄱ (좌상단)', 'clip_box': {'x': 325, 'y': 90, 'w': 255, 'h': 295}, 'd': 'M 360 137 L 573 137 C 573 220 540 320 466 369', 'width': 105, 'duration': 0.45},
+            {'order': 3, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅜ 1획 (가로선)', 'clip_box': {'x': 35, 'y': 365, 'w': 610, 'h': 100}, 'd': 'M 45 415 L 637 415', 'width': 100, 'duration': 0.45},
+            {'order': 4, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅜ 2획 (세로점)', 'clip_box': {'x': 270, 'y': 415, 'w': 110, 'h': 210}, 'd': 'M 324 415 L 324 618', 'width': 100, 'duration': 0.3},
+            {'order': 5, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅓ 1획 (가로가지)', 'clip_box': {'x': 500, 'y': 480, 'w': 220, 'h': 75}, 'd': 'M 514 519 L 715 519', 'width': 95, 'duration': 0.28},
+            {'order': 6, 'part': '중성', 'color': '#f59e0b', 'name': 'ㅓ 2획 (세로기둥)', 'clip_box': {'x': 700, 'y': 45, 'w': 100, 'h': 590}, 'd': 'M 748 45 L 748 628', 'width': 105, 'duration': 0.55},
+            {'order': 7, 'part': '종성', 'color': '#10b981', 'name': 'ㅇ 받침 (원형 폐곡선)', 'clip_box': {'x': 170, 'y': 625, 'w': 635, 'h': 340}, 'd': 'M 490 668 A 240 128 0 1 0 490 924 A 240 128 0 1 0 490 668', 'width': 120, 'duration': 0.8}
+        ]
     }
 }
 
